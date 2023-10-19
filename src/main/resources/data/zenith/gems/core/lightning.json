@@ -27,10 +27,10 @@
 		{
 			"type": "zenith:attribute",
 			"gem_class": {
-				"key": "magic_weapon",
+				"key": "lightning_weapons",
 				"types": [
-					"STAFF",
-					"SPELLWEAPON"
+					"SPELL_WEAPON",
+					"LIGHTNING_STAFF"
 				]
 			},
 			"attribute": "spell_power:lightning",

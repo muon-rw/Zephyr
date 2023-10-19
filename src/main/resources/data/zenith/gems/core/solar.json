@@ -27,10 +27,10 @@
 		{
 			"type": "zenith:attribute",
 			"gem_class": {
-				"key": "spellweapon",
+				"key": "fire_weapons",
 				"types": [
-					"STAFF",
-					"SPELLWEAPON"
+					"SPELL_WEAPON",
+					"FIRE_STAFF"
 				]
 			},
 			"attribute": "spell_power:fire",

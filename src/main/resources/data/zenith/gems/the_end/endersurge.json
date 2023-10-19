@@ -15,7 +15,14 @@
 					"bow", "crossbow", "pickaxe", "shovel",
 					"heavy_weapon", "helmet", "chestplate",
 					"leggings", "boots", "shield",
-					"trident", "sword"
+					"trident", "sword",
+					"SPELL_WEAPON",
+					"FIRE_STAFF",
+					"FROST_STAFF",
+					"ARCANE_STAFF",
+					"HEALING_STAFF",
+					"SOUL_STAFF",
+					"LIGHTNING_STAFF"
 				]
 			},
 			"enchantment": "sharpness",

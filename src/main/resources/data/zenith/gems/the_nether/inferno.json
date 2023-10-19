@@ -30,19 +30,19 @@
 		{
 			"type": "zenith:attribute",
 			"gem_class": {
-				"key": "staff",
+				"key": "fire_weapons",
 				"types": [
-					"STAFF",
-					"SPELLWEAPON"
+					"SPELL_WEAPON",
+					"FIRE_STAFF"
 				]
 			},
 			"attribute": "spell_power:fire",
-			"operation": "ADDITION",
+			"operation": "MULTIPLY_TOTAL",
 			"values": {
-				"rare": 1,
-				"epic": 1.5,
-				"mythic": 2.0,
-				"ancient": 3.0
+				"rare": 0.05,
+				"epic": 0.1,
+				"mythic": 0.15,
+				"ancient": 0.2
 			}
 		},
 		{

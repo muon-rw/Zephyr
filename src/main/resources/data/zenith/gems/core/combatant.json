@@ -62,6 +62,29 @@
 				"mythic": 0.30,
 				"ancient": 0.40
 			}
+		},
+		{
+			"type": "zenith:durability",
+			"gem_class": {
+				"key": "magic_weapons",
+				"types": [
+					"SPELL_WEAPON",
+					"FIRE_STAFF",
+					"FROST_STAFF",
+					"ARCANE_STAFF",
+					"HEALING_STAFF",
+					"SOUL_STAFF",
+					"LIGHTNING_STAFF"
+				]
+			},
+			"values": {
+				"common": 0.05,
+				"uncommon": 0.10,
+				"rare": 0.15,
+				"epic": 0.225,
+				"mythic": 0.30,
+				"ancient": 0.40
+			}
 		}
 	]
 }

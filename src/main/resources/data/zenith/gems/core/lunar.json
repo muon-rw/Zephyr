@@ -27,6 +27,26 @@
 		{
 			"type": "zenith:attribute",
 			"gem_class": {
+				"key": "frost_weapons",
+				"types": [
+					"SPELL_WEAPON",
+					"FROST_STAFF"
+				]
+			},
+			"attribute": "spell_power:frost",
+			"operation": "ADDITION",
+			"values": {
+				"common": 1,
+				"uncommon": 1.5,
+				"rare": 2.5,
+				"epic": 4,
+				"mythic": 6,
+				"ancient": 8
+			}
+		},
+		{
+			"type": "zenith:attribute",
+			"gem_class": {
 				"key": "core_armor",
 				"types": [
 					"chestplate", "leggings"
