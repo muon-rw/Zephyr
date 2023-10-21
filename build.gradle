@@ -67,6 +67,7 @@ dependencies {
 	implementation(annotationProcessor("com.github.bawnorton.mixinsquared:mixinsquared-fabric:0.0.2"))
 	modImplementation("com.jamieswhiteshirt:reach-entity-attributes:${project.rea_version}")
 	modImplementation("maven.modrinth:AdditionalEntityAttributes:${project.aea_version}")
+	modImplementation("io.github.fabricators_of_create.Porting-Lib:loot:2.1.1102+1.20-entity-refactor") //doubt
 	modImplementation("io.github.fabricators_of_create.Porting-Lib:accessors:${project.port_lib_version}")
 	modImplementation("io.github.fabricators_of_create.Porting-Lib:attributes:${project.port_lib_version}")
 	modImplementation("io.github.fabricators_of_create.Porting-Lib:base:${project.port_lib_version}")
