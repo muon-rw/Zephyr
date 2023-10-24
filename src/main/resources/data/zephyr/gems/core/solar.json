@@ -1,5 +1,5 @@
 {
-	"variant": "lunar",
+	"variant": "solar",
 	"weight": 10,
 	"quality": 0,
 	"dimensions": [
@@ -13,7 +13,7 @@
 					"trident"
 				]
 			},
-			"attribute": "zenith_attributes:cold_damage",
+			"attribute": "zenith_attributes:fire_damage",
 			"operation": "ADDITION",
 			"values": {
 				"common": 1,
@@ -27,21 +27,21 @@
 		{
 			"type": "zenith:attribute",
 			"gem_class": {
-				"key": "frost_weapons",
+				"key": "fire_weapons",
 				"types": [
 					"SPELL_WEAPON",
-					"FROST_STAFF"
+					"FIRE_STAFF"
 				]
 			},
-			"attribute": "spell_power:frost",
+			"attribute": "spell_power:fire",
 			"operation": "ADDITION",
 			"values": {
-				"common": 0.25,
-				"uncommon": 0.5,
-				"rare": 1.0,
-				"epic": 1.5,
-				"mythic": 2.0,
-				"ancient": 3.0
+				"common": 1,
+				"uncommon": 1.5,
+				"rare": 2.5,
+				"epic": 4,
+				"mythic": 6,
+				"ancient": 8
 			}
 		},
 		{
@@ -55,12 +55,12 @@
 			"attribute": "porting_lib:entity_gravity",
 			"operation": "MULTIPLY_TOTAL",
 			"values": {
-				"common": -0.10,
-				"uncommon": -0.25,
-				"rare": -0.45,
-				"epic": -0.65,
-				"mythic": -0.85,
-				"ancient": -1.04
+				"common": 0.10,
+				"uncommon": 0.25,
+				"rare": 0.45,
+				"epic": 0.65,
+				"mythic": 0.85,
+				"ancient": 1.04
 			}
 		},
 		{
@@ -71,15 +71,15 @@
 					"boots"
 				]
 			},
-			"attribute": "porting_lib:swim_speed",
-			"operation": "MULTIPLY_BASE",
+			"attribute": "porting_lib:step_height_addition",
+			"operation": "ADDITION",
 			"values": {
-				"common": 0.10,
-				"uncommon": 0.20,
-				"rare": 0.30,
-				"epic": 0.45,
-				"mythic": 0.60,
-				"ancient": 0.80
+				"common": 0.25,
+				"uncommon": 0.5,
+				"rare": 1,
+				"epic": 1.5,
+				"mythic": 2,
+				"ancient": 3
 			}
 		}
 	]

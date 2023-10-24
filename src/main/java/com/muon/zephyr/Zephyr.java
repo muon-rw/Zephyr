@@ -1,5 +1,6 @@
 package com.muon.zephyr;
 
+import dev.shadowsoffire.apotheosis.adventure.affix.Affix;
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.util.Identifier;
 import org.slf4j.Logger;

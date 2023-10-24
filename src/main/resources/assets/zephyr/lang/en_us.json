@@ -1,0 +1,72 @@
+{
+    "affix.zephyr:magic_weapons/attribute/lacerating": "Lacerating",
+    "affix.zephyr:magic_weapons/attribute/lacerating.suffix": "of Precision",
+    "affix.zephyr:magic_weapons/attribute/intricate": "Intricate",
+    "affix.zephyr:magic_weapons/attribute/intricate.suffix": "of Critical Thinking",
+    "affix.zephyr:magic_weapons/attribute/vampiric": "Vampiric",
+    "affix.zephyr:magic_weapons/attribute/vampiric.suffix": "of Bloodletting",
+    "affix.zephyr:magic_weapons/attribute/piercing": "Piercing",
+    "affix.zephyr:magic_weapons/attribute/piercing.suffix": "of the Sunderer",
+    "affix.zephyr:magic_weapons/attribute/vigorous": "Vigorous",
+    "affix.zephyr:magic_weapons/attribute/vigorous.suffix": "of Force",
+    
+    "affix.zephyr:magic_weapons/mob_effect/sophisticated": "Sophisticated",
+    "affix.zephyr:magic_weapons/mob_effect/sophisticated.suffix": "of Wisdom",
+    "affix.zephyr:magic_weapons/mob_effect/shulkers": "Shulk-touched",
+    "affix.zephyr:magic_weapons/mob_effect/shulkers.suffix": "of Levitation",
+    "affix.zephyr:magic_weapons/mob_effect/elusive": "Elusive",
+    "affix.zephyr:magic_weapons/mob_effect/elusive.suffix": "of Evasion",
+    "affix.zephyr:magic_weapons/mob_effect/weakening": "Weakening",
+    "affix.zephyr:magic_weapons/mob_effect/weakening.suffix": "of Exhaustion",
+
+    "affix.zephyr:elemental/attribute/electric": "Charged",
+    "affix.zephyr:elemental/attribute/electric.suffix": "of Sparks",
+    "affix.zephyr:elemental/mob_effect/electromancers": "Electromancer's",
+    "affix.zephyr:elemental/mob_effect/electromancers.suffix": "of the Shaman",
+
+    "affix.zephyr:elemental/attribute/voidborne": "Voidborne",
+    "affix.zephyr:elemental/attribute/voidborne.suffix": "of the Esoteric",
+    "affix.zephyr:elemental/mob_effect/void_seers": "Void Seer's",
+    "affix.zephyr:elemental/mob_effect/void_seers.suffix": "of Forbidden Knowledge",
+
+    "affix.zephyr:elemental/attribute/glacial": "Glacial",
+    "affix.zephyr:elemental/attribute/glacial.suffix": "of Freezing",
+    "affix.zephyr:elemental/mob_effect/cryomancers": "Cryomancer's",
+    "affix.zephyr:elemental/mob_effect/cryomancers.suffix": "of True Ice",
+
+    "affix.zephyr:elemental/attribute/sacred": "Sacred",
+    "affix.zephyr:elemental/attribute/sacred.suffix": "of Heaven",
+    "affix.zephyr:elemental/mob_effect/clerics": "Cleric's",
+    "affix.zephyr:elemental/mob_effect/clerics.suffix": "of Purity",
+
+    "affix.zephyr:elemental/attribute/soul": "Undead",
+    "affix.zephyr:elemental/attribute/soul.suffix": "of the Skeleton King",
+    "affix.zephyr:elemental/mob_effect/necromancers": "Necromancer's",
+    "affix.zephyr:elemental/mob_effect/necromancers.suffix": "of Resurrection",
+
+    "affix.zephyr:elemental/attribute/infernal": "Infernal",
+    "affix.zephyr:elemental/attribute/infernal.suffix": "of Hellfire",
+    "affix.zephyr:elemental/mob_effect/pyromancers": "Pyromancer's",
+    "affix.zephyr:elemental/mob_effect/pyromancers.suffix": "of Insanity",
+
+	"text.zenith.category.fire_staff": "Fire Weapon",
+	"text.zenith.category.fire_staff.plural": "Fire Weapons",
+
+    "text.zenith.category.arcane_staff": "Arcane Weapon",
+	"text.zenith.category.arcane_staff.plural": "Arcane Weapons",
+
+    "text.zenith.category.frost_staff": "Frost Weapon",
+	"text.zenith.category.frost_staff.plural": "Frost Weapons",
+
+    "text.zenith.category.healing_staff": "Healing Weapon",
+	"text.zenith.category.healing_staff.plural": "Healing Weapons",
+
+    "text.zenith.category.lightning_staff": "Lightning Weapon",
+	"text.zenith.category.lightning_staff.plural": "Lightning Weapons",
+
+    "text.zenith.category.soul_staff": "Soul Tool",
+	"text.zenith.category.soul_staff.plural": "Soul Tools",
+
+
+    "affix.zenith.target.spell_cast": "On spell cast, gain %s"
+}

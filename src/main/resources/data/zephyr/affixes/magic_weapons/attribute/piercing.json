@@ -1,6 +1,6 @@
 {
 	"type": "zenith:attribute",
-	"attribute": "zephyr:magic_penetration",
+	"attribute": "zenith_attributes:prot_pierce",
 	"operation": "ADDITION",
 	"values": {
 		"common": {
