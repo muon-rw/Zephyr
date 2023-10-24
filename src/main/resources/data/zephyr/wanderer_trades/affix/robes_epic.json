@@ -1,8 +1,19 @@
 {
-	"fabric:load_conditions": [{
-		"condition": "zenith:module",
-		"module": "adventure"
-	}],
+	"fabric:load_conditions": [
+		{
+			"condition": "zenith:module",
+			"module": "adventure"
+		},
+		{
+			"condition": "fabric:not",
+			"value": {
+				"condition": "fabric:any_mods_loaded",
+				"values": [
+					"zephyr"
+				]
+			}
+		}
+	],
 	"type": "zenith:affix",
 	"rare": true,
 	"input_1": {
