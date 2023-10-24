@@ -1,27 +1,40 @@
 package com.muon.zephyr;
 
-import dev.shadowsoffire.apotheosis.adventure.affix.Affix;
+import net.fabricmc.fabric.api.resource.ResourceManagerHelper;
+import net.fabricmc.fabric.api.resource.ResourcePackActivationType;
+import net.minecraft.resources.ResourceLocation;
 import net.fabricmc.api.ModInitializer;
-import net.minecraft.util.Identifier;
+import net.fabricmc.loader.api.FabricLoader;
+import net.fabricmc.loader.api.ModContainer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class Zephyr implements ModInitializer {
-	// This logger is used to write text to the console and the log file.
-	// It is considered best practice to use your mod id as the logger's name.
-	// That way, it's clear which mod wrote info, warnings, and errors.
-
     public static final Logger LOGGER = LoggerFactory.getLogger("zephyr");
+	public static void structureDatapack() {
+		ResourceLocation id = Zephyr.loc("zenith_replacer");
+		ModContainer container = getModContainer(id);
+		ResourceManagerHelper.registerBuiltinResourcePack(id, container,  ResourcePackActivationType.DEFAULT_ENABLED);
+	}
+	private static ModContainer getModContainer(ResourceLocation pack) {
+		if (FabricLoader.getInstance().isDevelopmentEnvironment()) {
+			for (ModContainer mod : FabricLoader.getInstance().getAllMods()) {
+				if (mod.findPath("resourcepacks/" + pack.getPath()).isPresent()) {
+					LOGGER.info("LOADING DEV ENVIRONMENT DATAPACK");
+					return mod;
+				}
+			}
+		}
+		return FabricLoader.getInstance().getModContainer(pack.getNamespace()).orElseThrow();
+	}
 
 	@Override
 	public void onInitialize() {
-		// This code runs as soon as Minecraft is in a mod-load-ready state.
-		// However, some things (like resources) may still be uninitialized.
-		// Proceed with mild caution.
 		LOGGER.info("Loading Zenith Spell Power Compat...");
 		LootCategories.init();
+		structureDatapack();
 	}
-	public static Identifier loc(String id) {
-		return new Identifier("zephyr", id);
+	public static ResourceLocation loc(String id) {
+		return new ResourceLocation("zephyr", id);
 	}
 }
