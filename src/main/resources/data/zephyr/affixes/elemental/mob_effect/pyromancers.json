@@ -53,6 +53,7 @@
 		}
 	},
 	"types": [
-		"FIRE_STAFF"
+		"FIRE_STAFF",
+		"ELEMENTAL_STAFF"
 	]
 }

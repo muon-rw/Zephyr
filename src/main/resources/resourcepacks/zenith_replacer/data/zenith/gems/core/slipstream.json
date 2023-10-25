@@ -30,7 +30,7 @@
 			"gem_class": {
 				"key": "magic_weapons",
 				"types": [
-					"SPELL_WEAPON",
+					"ELEMENTAL_STAFF",
 					"FIRE_STAFF",
 					"FROST_STAFF",
 					"ARCANE_STAFF",
@@ -42,12 +42,12 @@
 			"attribute": "spell_power:haste",
 			"operation": "MULTIPLY_BASE",
 			"values": {
-				"common": 0.10,
-				"uncommon": 0.25,
-				"rare": 0.35,
-				"epic": 0.45,
-				"mythic": 0.5,
-				"ancient": 0.60
+				"common": 0.02,
+				"uncommon": 0.03,
+				"rare": 0.04,
+				"epic": 0.06,
+				"mythic": 0.08,
+				"ancient": 0.1
 			}
 		},
 		{

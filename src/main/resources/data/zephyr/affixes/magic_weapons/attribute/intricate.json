@@ -19,13 +19,13 @@
 			"step": 0.01
 		},
 		"epic": {
-			"min": 0.04,
-			"steps": 15,
+			"min": 0.08,
+			"steps": 10,
 			"step": 0.01
 		},
 		"mythic": {
-			"min": 0.05,
-			"steps": 15,
+			"min": 0.10,
+			"steps": 10,
 			"step": 0.01
 		},
 		"ancient": {
@@ -35,7 +35,7 @@
 		}
 	},
 	"types": [
-		"SPELL_WEAPON",
+		"ELEMENTAL_STAFF",
 		"FIRE_STAFF",
 		"FROST_STAFF",
 		"ARCANE_STAFF",

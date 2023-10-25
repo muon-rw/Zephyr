@@ -29,19 +29,19 @@
 			"gem_class": {
 				"key": "fire_weapons",
 				"types": [
-					"SPELL_WEAPON",
+					"ELEMENTAL_STAFF",
 					"FIRE_STAFF"
 				]
 			},
 			"attribute": "spell_power:fire",
 			"operation": "ADDITION",
 			"values": {
-				"common": 1,
-				"uncommon": 1.5,
-				"rare": 2.5,
-				"epic": 4,
-				"mythic": 6,
-				"ancient": 8
+				"common": 0.25,
+				"uncommon": 0.5,
+				"rare": 1.0,
+				"epic": 1.5,
+				"mythic": 2.0,
+				"ancient": 3.0
 			}
 		},
 		{

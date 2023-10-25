@@ -32,7 +32,7 @@
 			"gem_class": {
 				"key": "fire_weapons",
 				"types": [
-					"SPELL_WEAPON",
+					"ELEMENTAL_STAFF",
 					"FIRE_STAFF"
 				]
 			},

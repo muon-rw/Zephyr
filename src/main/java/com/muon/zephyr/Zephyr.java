@@ -11,7 +11,7 @@ import org.slf4j.LoggerFactory;
 
 public class Zephyr implements ModInitializer {
     public static final Logger LOGGER = LoggerFactory.getLogger("zephyr");
-	public static void structureDatapack() {
+	public static void overrides() {
 		ResourceLocation id = Zephyr.loc("zenith_replacer");
 		ModContainer container = getModContainer(id);
 		ResourceManagerHelper.registerBuiltinResourcePack(id, container,  ResourcePackActivationType.DEFAULT_ENABLED);
@@ -32,7 +32,7 @@ public class Zephyr implements ModInitializer {
 	public void onInitialize() {
 		LOGGER.info("Loading Zenith Spell Power Compat...");
 		LootCategories.init();
-		structureDatapack();
+		overrides();
 	}
 	public static ResourceLocation loc(String id) {
 		return new ResourceLocation("zephyr", id);

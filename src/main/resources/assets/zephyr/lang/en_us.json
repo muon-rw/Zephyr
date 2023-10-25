@@ -49,24 +49,34 @@
     "affix.zephyr:elemental/mob_effect/pyromancers": "Pyromancer's",
     "affix.zephyr:elemental/mob_effect/pyromancers.suffix": "of Insanity",
 
-	"text.zenith.category.fire_staff": "Fire Weapon",
-	"text.zenith.category.fire_staff.plural": "Fire Weapons",
+	"text.zenith.category.FIRE_STAFF": "Fire Weapon",
+	"text.zenith.category.FIRE_STAFF.plural": "Fire Weapons",
 
-    "text.zenith.category.arcane_staff": "Arcane Weapon",
-	"text.zenith.category.arcane_staff.plural": "Arcane Weapons",
+    "text.zenith.category.ARCANE_STAFF": "Arcane Weapon",
+	"text.zenith.category.ARCANE_STAFF.plural": "Arcane Weapons",
 
-    "text.zenith.category.frost_staff": "Frost Weapon",
-	"text.zenith.category.frost_staff.plural": "Frost Weapons",
+    "text.zenith.category.FROST_STAFF": "Frost Weapon",
+	"text.zenith.category.FROST_STAFF.plural": "Frost Weapons",
 
-    "text.zenith.category.healing_staff": "Healing Weapon",
-	"text.zenith.category.healing_staff.plural": "Healing Weapons",
+    "text.zenith.category.HEALING_STAFF": "Healing Weapon",
+	"text.zenith.category.HEALING_STAFF.plural": "Healing Weapons",
 
-    "text.zenith.category.lightning_staff": "Lightning Weapon",
-	"text.zenith.category.lightning_staff.plural": "Lightning Weapons",
+    "text.zenith.category.LIGHTNING_STAFF": "Lightning Weapon",
+	"text.zenith.category.LIGHTNING_STAFF.plural": "Lightning Weapons",
 
-    "text.zenith.category.soul_staff": "Soul Tool",
-	"text.zenith.category.soul_staff.plural": "Soul Tools",
+    "text.zenith.category.SOUL_STAFF": "Soul Weapon",
+	"text.zenith.category.SOUL_STAFF.plural": "Soul Weapons",
 
+    "text.zenith.category.ELEMENTAL_STAFF": "Elemental Weapon",
+	"text.zenith.category.ELEMENTAL_STAFF.plural": "Elemental Weapons",
+
+    "gem_class.magic_weapons": "Any Magic Weapons",
+    "gem_class.fire_weapons": "Fire Weapons",
+    "gem_class.frost_weapons": "Frost Weapons",
+    "gem_class.arcane_weapons": "Arcane Weapons",
+    "gem_class.healing_weapons": "Healing Weapons",
+    "gem_class.lightning_weapons": "Lightning Weapons",
+    "gem_class.soul_weapons": "Soul Weapons",
 
     "affix.zenith.target.spell_cast": "On spell cast, gain %s"
 }

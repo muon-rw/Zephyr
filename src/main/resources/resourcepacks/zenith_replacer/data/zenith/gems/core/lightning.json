@@ -29,7 +29,7 @@
 			"gem_class": {
 				"key": "lightning_weapons",
 				"types": [
-					"SPELL_WEAPON",
+					"ELEMENTAL_STAFF",
 					"LIGHTNING_STAFF"
 				]
 			},

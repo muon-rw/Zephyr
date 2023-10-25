@@ -53,6 +53,7 @@
 		}
 	},
 	"types": [
-		"ARCANE_STAFF"
+		"ARCANE_STAFF",
+		"ELEMENTAL_STAFF"
 	]
 }

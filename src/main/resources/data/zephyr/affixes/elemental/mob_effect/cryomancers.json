@@ -53,6 +53,7 @@
 		}
 	},
 	"types": [
-		"FROST_STAFF"
+		"FROST_STAFF",
+		"ELEMENTAL_STAFF"
 	]
 }

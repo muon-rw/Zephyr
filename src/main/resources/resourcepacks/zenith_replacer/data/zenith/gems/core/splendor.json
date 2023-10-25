@@ -36,8 +36,8 @@
 					"heavy_weapon",
 					"shovel",
 					"pickaxe",
-					"SPELL_WEAPON",
-					"SPELL_WEAPON"
+					"ELEMENTAL_STAFF",
+					"ELEMENTAL_STAFF"
 				]
 			},
 			"attribute": "additionalentityattributes:dropped_experience",
