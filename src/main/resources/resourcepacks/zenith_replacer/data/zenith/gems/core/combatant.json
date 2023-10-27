@@ -72,9 +72,7 @@
 					"FIRE_STAFF",
 					"FROST_STAFF",
 					"ARCANE_STAFF",
-					"HEALING_STAFF",
-					"SOUL_STAFF",
-					"LIGHTNING_STAFF"
+					"HEALING_STAFF"
 				]
 			},
 			"values": {

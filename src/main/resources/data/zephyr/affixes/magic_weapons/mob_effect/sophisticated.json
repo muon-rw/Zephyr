@@ -1,7 +1,7 @@
 {
 	"type": "zenith:mob_effect",
 	"mob_effect": "zenith_attributes:knowledge",
-	"target": "ATTACK_SELF",
+	"target": "SPELL_CAST",
 	"values": {
 		"epic": {
 			"duration": {

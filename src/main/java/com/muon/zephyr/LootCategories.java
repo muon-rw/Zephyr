@@ -23,8 +23,6 @@ public class LootCategories {
     public static final LootCategory SOUL_STAFF = LootCategory.register(LootCategory.SWORD, "SOUL_STAFF", s-> s.getItem().getAttributeModifiers(s, EquipmentSlot.MAINHAND).get(EntityAttributes_SpellPower.POWER.get(MagicSchool.SOUL)).stream().anyMatch((m) -> m.getAmount() > 0.0), arr(EquipmentSlot.MAINHAND));
     public static final LootCategory HEALING_STAFF = LootCategory.register(LootCategory.SWORD, "HEALING_STAFF", s-> s.getItem().getAttributeModifiers(s, EquipmentSlot.MAINHAND).get(EntityAttributes_SpellPower.POWER.get(MagicSchool.HEALING)).stream().anyMatch((m) -> m.getAmount() > 0.0), arr(EquipmentSlot.MAINHAND));
     public static final LootCategory LIGHTNING_STAFF = LootCategory.register(LootCategory.SWORD, "LIGHTNING_STAFF", s-> s.getItem().getAttributeModifiers(s, EquipmentSlot.MAINHAND).get(EntityAttributes_SpellPower.POWER.get(MagicSchool.LIGHTNING)).stream().anyMatch((m) -> m.getAmount() > 0.0), arr(EquipmentSlot.MAINHAND));
-
-
     private static EquipmentSlot[] arr(EquipmentSlot... s) {
         return s;
     }

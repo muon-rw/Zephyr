@@ -37,7 +37,10 @@
 					"shovel",
 					"pickaxe",
 					"ELEMENTAL_STAFF",
-					"ELEMENTAL_STAFF"
+					"FIRE_STAFF",
+					"FROST_STAFF",
+					"ARCANE_STAFF",
+					"HEALING_STAFF"
 				]
 			},
 			"attribute": "additionalentityattributes:dropped_experience",
