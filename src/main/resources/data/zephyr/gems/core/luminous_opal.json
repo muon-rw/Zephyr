@@ -1,6 +1,6 @@
 {
-	"weight": 10,
-	"quality": 0,
+	"weight": 5,
+	"quality": 2,
 	"dimensions": [
 	],
 	"bonuses": [{
@@ -53,9 +53,8 @@
 			},
 			"enchantment": "minecraft:smite",
 			"values": {
-				"common": 1,
 				"uncommon": 1,
-				"rare": 2,
+				"rare": 1,
 				"epic": 2,
 				"mythic": 3,
 				"ancient": 4

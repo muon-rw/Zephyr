@@ -1,6 +1,6 @@
 {
-	"weight": 10,
-	"quality": 0,
+	"weight": 5,
+	"quality": 2,
 	"dimensions": [],
 	"bonuses": [
 		{
@@ -31,6 +31,7 @@
 					"boots"
 				]
 			},
+			"must_exist": true,
 			"enchantment": "minecraft:frost_walker",
 			"values": {
 				"rare": 1,
