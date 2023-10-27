@@ -2,16 +2,16 @@
 	"schemaVersion": 1,
 	"id": "zephyr",
 	"version": "${version}",
-	"name": "zephyr",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Zephyr",
+	"description": "Spell Power Compat for the Zenith adventure module",
 	"authors": [
-		"Me!"
+		"Muon"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://legacy.curseforge.com/minecraft/mc-mods/zephyr",
+		"sources": "https://github.com/muon-rw/Zephyr"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/zephyr/icon.png",
 	"environment": "*",
 	"entrypoints": {
