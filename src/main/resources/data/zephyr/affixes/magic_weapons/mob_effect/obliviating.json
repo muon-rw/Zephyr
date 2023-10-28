@@ -1,7 +1,7 @@
 {
 	"type": "zenith:mob_effect",
-	"mob_effect": "zenith_attributes:knowledge",
-	"target": "SPELL_CAST_SELF",
+	"mob_effect": "zenith_attributes:grievous",
+	"target": "SPELL_CAST_TARGET",
 	"values": {
 		"epic": {
 			"duration": {

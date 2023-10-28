@@ -57,7 +57,8 @@ dependencies {
 
 	// Zenith
 	modImplementation "maven.modrinth:zenith-attributes:${project.zenith_attributes_version}"
-	modImplementation "maven.modrinth:zenith:${project.zenith_version}"
+	//modImplementation "maven.modrinth:zenith:${project.zenith_version}"
+	modImplementation "curse.maven:zenith-620928:4820216"
 	modImplementation "maven.modrinth:fakerlib:${project.fakerlib_version}"
 	// RPG Series
 	modImplementation("maven.modrinth:projectile-damage-attribute:${project.projectile_damage}-fabric")

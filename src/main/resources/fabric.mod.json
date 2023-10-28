@@ -24,7 +24,7 @@
 		"minecraft": "~1.20.1",
 		"java": ">=17",
 		"fabric-api": "*",
-		"zenith": "*",
+		"zenith": ">=0.1.7-1.20.1",
 		"spell_power": "*"
 	},
 	"suggests": {

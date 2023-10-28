@@ -1,7 +1,7 @@
 {
 	"type": "zenith:mob_effect",
 	"mob_effect": "spell_power:lightning",
-	"target": "SPELL_CAST",
+	"target": "SPELL_CAST_SELF",
 	"values": {
 		"rare": {
 			"duration": {

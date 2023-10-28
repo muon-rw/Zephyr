@@ -14,6 +14,10 @@
     "affix.zephyr:magic_weapons/mob_effect/sophisticated.suffix": "of Elevated Wisdom",
     "affix.zephyr:magic_weapons/mob_effect/elusive": "Elusive",
     "affix.zephyr:magic_weapons/mob_effect/elusive.suffix": "of Swift Winds",
+    "affix.zephyr:magic_weapons/mob_effect/obliviating": "Obliviating",
+    "affix.zephyr:magic_weapons/mob_effect/obliviating.suffix": "of the Eldritch Tome",
+    "affix.zephyr:magic_weapons/mob_effect/smothering": "Smothering",
+    "affix.zephyr:magic_weapons/mob_effect/smothering.suffix": "of the Overwhelming Fog",
 
     "affix.zephyr:elemental/attribute/electric": "Charged",
     "affix.zephyr:elemental/attribute/electric.suffix": "of Scattering Sparks",
@@ -79,5 +83,6 @@
     "gem_class.lightning_weapons": "Lightning Weapons",
     "gem_class.soul_weapons": "Soul Weapons",
 
-    "affix.zenith.target.spell_cast": "On spell cast, gain %s"
+    "affix.zenith.target.spell_cast_self": "On spell cast, gain %s",
+    "affix.zenith.target.spell_cast_target": "On spell cast, inflict %s"
 }
