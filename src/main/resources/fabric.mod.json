@@ -29,6 +29,9 @@
 	},
 	"suggests": {
 		"another-mod": "*"
-	}
+	},
+	"mixins": [
+		"zephyr.mixins.json"
+	]
 
 }
