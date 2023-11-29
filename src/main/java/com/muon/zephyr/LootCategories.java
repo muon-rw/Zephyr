@@ -1,11 +1,14 @@
 package com.muon.zephyr;
 
 import dev.shadowsoffire.apotheosis.adventure.loot.LootCategory;
+import net.bettercombat.api.WeaponAttributes;
+import net.bettercombat.logic.WeaponRegistry;
 import net.minecraft.world.entity.EquipmentSlot;
 // import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.item.ItemStack;
 // import net.spell_engine.api.item.weapon.SpellWeaponItem;
 // import net.spell_engine.api.item.weapon.StaffItem;
+import net.spell_engine.api.item.weapon.Weapon;
 import net.spell_power.api.MagicSchool;
 import net.spell_power.api.attributes.EntityAttributes_SpellPower;
 
@@ -23,6 +26,8 @@ public class LootCategories {
     public static final LootCategory SOUL_STAFF = LootCategory.register(LootCategory.SWORD, "SOUL_STAFF", s-> s.getItem().getAttributeModifiers(s, EquipmentSlot.MAINHAND).get(EntityAttributes_SpellPower.POWER.get(MagicSchool.SOUL)).stream().anyMatch((m) -> m.getAmount() > 0.0), arr(EquipmentSlot.MAINHAND));
     public static final LootCategory HEALING_STAFF = LootCategory.register(LootCategory.SWORD, "HEALING_STAFF", s-> s.getItem().getAttributeModifiers(s, EquipmentSlot.MAINHAND).get(EntityAttributes_SpellPower.POWER.get(MagicSchool.HEALING)).stream().anyMatch((m) -> m.getAmount() > 0.0), arr(EquipmentSlot.MAINHAND));
     public static final LootCategory LIGHTNING_STAFF = LootCategory.register(LootCategory.SWORD, "LIGHTNING_STAFF", s-> s.getItem().getAttributeModifiers(s, EquipmentSlot.MAINHAND).get(EntityAttributes_SpellPower.POWER.get(MagicSchool.LIGHTNING)).stream().anyMatch((m) -> m.getAmount() > 0.0), arr(EquipmentSlot.MAINHAND));
+    public static final LootCategory TWO_HANDED = LootCategory.register(LootCategory.SWORD, "TWO_HANDED", itemStack -> { WeaponAttributes weaponAttributes = WeaponRegistry.getAttributes(itemStack); return weaponAttributes != null && weaponAttributes.isTwoHanded();}, arr(EquipmentSlot.MAINHAND));
+
     private static EquipmentSlot[] arr(EquipmentSlot... s) {
         return s;
     }
@@ -33,6 +38,7 @@ public class LootCategories {
     public static boolean isSoulStaff(ItemStack stack) { return LootCategory.forItem(stack).equals(SOUL_STAFF);}
     public static boolean isHealingStaff(ItemStack stack) { return LootCategory.forItem(stack).equals(HEALING_STAFF);}
     public static boolean isLightningStaff(ItemStack stack) { return LootCategory.forItem(stack).equals(LIGHTNING_STAFF);}
+    public static boolean isTwoHanded(ItemStack stack) { return LootCategory.forItem(stack).equals(TWO_HANDED);}
 
     public static void init() {}
 
