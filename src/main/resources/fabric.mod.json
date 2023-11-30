@@ -33,5 +33,4 @@
 	"mixins": [
 		"zephyr.mixins.json"
 	]
-
 }
