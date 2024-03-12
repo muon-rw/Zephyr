@@ -24,8 +24,9 @@
 		"minecraft": "~1.20.1",
 		"java": ">=17",
 		"fabric-api": "*",
-		"zenith": ">=0.1.7-1.20.1",
-		"spell_power": "*"
+		"zenith": "*",
+		"spell_power": "*",
+		"bettercombat": "*"
 	},
 	"suggests": {
 		"another-mod": "*"

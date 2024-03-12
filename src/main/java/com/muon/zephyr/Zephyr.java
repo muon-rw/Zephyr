@@ -16,29 +16,23 @@ import org.apache.logging.log4j.LogManager;
 public class Zephyr implements ModInitializer {
     public static final Logger LOGGER = LogManager.getLogger("zephyr");
 	public static void overrides() {
-		ResourceLocation id = Zephyr.loc("zenith_replacer");
+		String packId = FabricLoader.getInstance().isModLoaded("apotheosis") ? "zephyr_apoth" : "zephyr_zenith";
+		ResourceLocation id = Zephyr.loc(packId);
 		ModContainer container = getModContainer(id);
-		ResourceManagerHelper.registerBuiltinResourcePack(id, container,  ResourcePackActivationType.DEFAULT_ENABLED);
+		ResourceManagerHelper.registerBuiltinResourcePack(id, container, ResourcePackActivationType.DEFAULT_ENABLED);
 	}
 	private static ModContainer getModContainer(ResourceLocation pack) {
 		if (FabricLoader.getInstance().isDevelopmentEnvironment()) {
 			for (ModContainer mod : FabricLoader.getInstance().getAllMods()) {
 				if (mod.findPath("resourcepacks/" + pack.getPath()).isPresent()) {
-					LOGGER.info("LOADING DEV ENVIRONMENT DATAPACK");
+					LOGGER.info("Loading Zephyr Data Files");
 					return mod;
 				}
 			}
 		}
 		return FabricLoader.getInstance().getModContainer(pack.getNamespace()).orElseThrow();
 	}
-	public static final class Affixes {
-		public static final DynamicHolder<MagicTelepathicAffix> TELEPATHIC;
-		public Affixes() {
-		}
-		static {
-			TELEPATHIC = AffixRegistry.INSTANCE.holder(Zephyr.loc("telepathic"));
-		}
-	}
+
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Loading Zephyr");

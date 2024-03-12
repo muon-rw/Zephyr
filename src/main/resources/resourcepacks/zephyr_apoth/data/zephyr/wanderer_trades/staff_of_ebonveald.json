@@ -1,0 +1,56 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "apotheosis:module",
+      "module": "village"
+    },
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "wizards",
+        "betterend"
+      ]
+    }
+  ],
+  "type": "apotheosis:basic_trade",
+  "rare": true,
+  "input_1": {
+    "item": "wizards:staff_crystal_arcane",
+    "count": 1
+  },
+  "input_2": {
+    "item": "minecraft:emerald",
+    "count": 45
+  },
+  "output": {
+    "item": "wizards:staff_crystal_arcane",
+    "count": 1,
+    "nbt": {
+      "Enchantments": [
+        {
+          "lvl": 7,
+          "id": "spell_power:spell_power"
+        },
+        {
+          "lvl": 1,
+          "id": "minecraft:mending"
+        },
+        {
+          "lvl": 5,
+          "id": "minecraft:unbreaking"
+        },
+        {
+          "lvl": 1,
+          "id": "spell_engine:spell_infinity"
+        }
+      ],
+      "display": {
+        "Name": "{\"translate\":\"name.zephyr.staff_of_ebonveald\", \"italic\": false, \"color\": \"#1ABBE0\"}"
+      },
+      "Damage": 0
+    }
+  },
+  "max_trades": 1,
+  "xp": 500,
+  "price_mult": 1.0
+}
