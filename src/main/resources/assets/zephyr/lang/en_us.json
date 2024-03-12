@@ -80,6 +80,32 @@
     "item.zenith.gem.zephyr:core/luminous_opal": "Luminous Opal",
     "item.zenith.gem.zephyr:the_end/void_umbalite": "Void Umbalite",
 
+    "text.apotheosis.category.FIRE_STAFF": "Fire Weapon",
+    "text.apotheosis.category.FIRE_STAFF.plural": "Fire Weapons",
+
+    "text.apotheosis.category.ARCANE_STAFF": "Arcane Weapon",
+    "text.apotheosis.category.ARCANE_STAFF.plural": "Arcane Weapons",
+
+    "text.apotheosis.category.FROST_STAFF": "Frost Weapon",
+    "text.apotheosis.category.FROST_STAFF.plural": "Frost Weapons",
+
+    "text.apotheosis.category.HEALING_STAFF": "Healing Weapon",
+    "text.apotheosis.category.HEALING_STAFF.plural": "Healing Weapons",
+
+    "text.apotheosis.category.LIGHTNING_STAFF": "Lightning Weapon",
+    "text.apotheosis.category.LIGHTNING_STAFF.plural": "Lightning Weapons",
+
+    "text.apotheosis.category.SOUL_STAFF": "Soul Weapon",
+    "text.apotheosis.category.SOUL_STAFF.plural": "Soul Weapons",
+
+    "text.apotheosis.category.ELEMENTAL_STAFF": "Elemental Weapon",
+    "text.apotheosis.category.ELEMENTAL_STAFF.plural": "Elemental Weapons",
+
+    "item.apotheosis.gem.zephyr:core/celsius_tear": "Celsius' Tear",
+    "item.apotheosis.gem.zephyr:the_nether/dragonfire_spessartite": "Dragonfire Spessartite",
+    "item.apotheosis.gem.zephyr:core/luminous_opal": "Luminous Opal",
+    "item.apotheosis.gem.zephyr:the_end/void_umbalite": "Void Umbalite",
+
     "gem_class.magic_weapons": "Any Magic Weapons",
     "gem_class.fire_weapons": "Fire Weapons",
     "gem_class.frost_weapons": "Frost Weapons",
