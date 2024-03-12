@@ -17,8 +17,6 @@ import static dev.shadowsoffire.apotheosis.adventure.loot.LootCategory.HEAVY_WEA
 import static dev.shadowsoffire.apotheosis.adventure.loot.LootCategory.VALUES;
 
 public class LootCategories {
-    // public static final LootCategory STAFF = LootCategory.register(LootCategory.SWORD, "STAFF", s-> s.getItem() instanceof StaffItem, arr(EquipmentSlot.MAINHAND);
-    // public static final LootCategory SPELL_WEAPON = LootCategory.register(LootCategory.SWORD, "SPELL_WEAPON", s-> s.getItem() instanceof SpellWeaponItem && s.getItem().getAttributeModifiers(s, EquipmentSlot.MAINHAND).get(Attributes.ATTACK_DAMAGE).stream().anyMatch((m) -> m.getAmount() > 4.0), arr(EquipmentSlot.MAINHAND));
     public static final LootCategory ELEMENTAL_STAFF = LootCategory.register(LootCategory.SWORD, "ELEMENTAL_STAFF", s->
             s.getItem().getAttributeModifiers(s, EquipmentSlot.MAINHAND).get(EntityAttributes_SpellPower.POWER.get(MagicSchool.ARCANE)).stream().anyMatch((m) -> m.getAmount() > 0.0) &&
             s.getItem().getAttributeModifiers(s, EquipmentSlot.MAINHAND).get(EntityAttributes_SpellPower.POWER.get(MagicSchool.FIRE)).stream().anyMatch((m) -> m.getAmount() > 0.0) &&
@@ -42,7 +40,6 @@ public class LootCategories {
     public static boolean isSoulStaff(ItemStack stack) { return LootCategory.forItem(stack).equals(SOUL_STAFF);}
     public static boolean isHealingStaff(ItemStack stack) { return LootCategory.forItem(stack).equals(HEALING_STAFF);}
     public static boolean isLightningStaff(ItemStack stack) { return LootCategory.forItem(stack).equals(LIGHTNING_STAFF);}
-    // public static boolean isTwoHanded(ItemStack stack) { return LootCategory.forItem(stack).equals(TWO_HANDED);}
 
     public static void init() {}
 

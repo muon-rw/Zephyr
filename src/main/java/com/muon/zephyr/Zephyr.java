@@ -1,16 +1,20 @@
 package com.muon.zephyr;
 
+import com.muon.zephyr.affixes.MagicTelepathicAffix;
+import dev.shadowsoffire.apotheosis.Apotheosis;
+import dev.shadowsoffire.apotheosis.adventure.affix.AffixRegistry;
+import dev.shadowsoffire.placebo.reload.DynamicHolder;
 import net.fabricmc.fabric.api.resource.ResourceManagerHelper;
 import net.fabricmc.fabric.api.resource.ResourcePackActivationType;
 import net.minecraft.resources.ResourceLocation;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.loader.api.FabricLoader;
 import net.fabricmc.loader.api.ModContainer;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
 
 public class Zephyr implements ModInitializer {
-    public static final Logger LOGGER = LoggerFactory.getLogger("zephyr");
+    public static final Logger LOGGER = LogManager.getLogger("zephyr");
 	public static void overrides() {
 		ResourceLocation id = Zephyr.loc("zenith_replacer");
 		ModContainer container = getModContainer(id);
@@ -27,10 +31,17 @@ public class Zephyr implements ModInitializer {
 		}
 		return FabricLoader.getInstance().getModContainer(pack.getNamespace()).orElseThrow();
 	}
-
+	public static final class Affixes {
+		public static final DynamicHolder<MagicTelepathicAffix> TELEPATHIC;
+		public Affixes() {
+		}
+		static {
+			TELEPATHIC = AffixRegistry.INSTANCE.holder(Zephyr.loc("telepathic"));
+		}
+	}
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Loading Zenith Spell Power Compat...");
+		LOGGER.info("Loading Zephyr");
 		LootCategories.init();
 		overrides();
 	}

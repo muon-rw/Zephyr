@@ -14,7 +14,7 @@ import static net.jewelry.api.AttributeResolver.register;
 public abstract class JewelryAttributeMixin {
     @Inject(method = "setup", at = @At("TAIL"), remap = false)
     private static void setup(CallbackInfo Info) {
-        if (FabricLoader.getInstance().isModLoaded("zenith_attributes")) {
+        if (FabricLoader.getInstance().isModLoaded("zenith_attributes") || FabricLoader.getInstance().isModLoaded("attributeslib")) {
             register (AttributesLib.loc("armor_pierce"), ALObjects.Attributes.ARMOR_PIERCE);
             register (AttributesLib.loc("crit_chance"), ALObjects.Attributes.CRIT_CHANCE);
             register (AttributesLib.loc("cold_damage"), ALObjects.Attributes.COLD_DAMAGE);

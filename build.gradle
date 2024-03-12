@@ -1,5 +1,5 @@
 plugins {
-	id 'fabric-loom' version '1.4-SNAPSHOT'
+	id 'fabric-loom' version '1.5-SNAPSHOT'
 	id 'maven-publish'
 }
 
@@ -17,7 +17,7 @@ repositories {
 	}
 	maven {
 		name = "Porting Lib"
-		url = "https://mvn.devos.one/snapshots/"
+		url = "https://mvn.devos.one/releases/"
 	}
 	maven {
 		name = "CCA"
@@ -37,7 +37,7 @@ repositories {
 	maven { url "https://cursemaven.com" }
 	maven { url "https://maven.bai.lol" }
 	maven { url 'https://maven.kosmx.dev/' }
-	maven { url 'https://libs.azuredoom.com:4443/mods' }
+	maven { url 'https://libs.azuredoom.com:4443/mods'}
 	maven { url "https://maven.parchmentmc.org" }
 	mavenLocal()
 }
@@ -58,7 +58,7 @@ dependencies {
 	// Zenith
 	modImplementation "maven.modrinth:zenith-attributes:${project.zenith_attributes_version}"
 	//modImplementation "maven.modrinth:zenith:${project.zenith_version}"
-	modImplementation "curse.maven:zenith-620928:4892212"
+	modImplementation "maven.modrinth:zenith:${project.zenith_version}"
 	modImplementation "maven.modrinth:fakerlib:${project.fakerlib_version}"
 	// RPG Series
 	modImplementation("maven.modrinth:projectile-damage-attribute:${project.projectile_damage}-fabric")
@@ -80,22 +80,9 @@ dependencies {
 	implementation(annotationProcessor("com.github.bawnorton.mixinsquared:mixinsquared-fabric:0.0.2"))
 	modImplementation("com.jamieswhiteshirt:reach-entity-attributes:${project.rea_version}")
 	modImplementation("maven.modrinth:AdditionalEntityAttributes:${project.aea_version}")
-	modImplementation("io.github.fabricators_of_create.Porting-Lib:loot:2.1.1102+1.20-entity-refactor") //doubt
-	modImplementation("io.github.fabricators_of_create.Porting-Lib:accessors:${project.port_lib_version}")
-	modImplementation("io.github.fabricators_of_create.Porting-Lib:attributes:${project.port_lib_version}")
+	modImplementation("io.github.fabricators_of_create.Porting-Lib:loot:${project.port_lib_version}") //doubt
 	modImplementation("io.github.fabricators_of_create.Porting-Lib:base:${project.port_lib_version}")
-	modImplementation("io.github.fabricators_of_create.Porting-Lib:client_events:${project.port_lib_version}")
-	modImplementation("io.github.fabricators_of_create.Porting-Lib:common:${project.port_lib_version}")
-	modImplementation("io.github.fabricators_of_create.Porting-Lib:core:${project.port_lib_version}")
-	modImplementation("io.github.fabricators_of_create.Porting-Lib:entity:${project.port_lib_version}")
-	modImplementation("io.github.fabricators_of_create.Porting-Lib:extensions:${project.port_lib_version}")
-	modImplementation("io.github.fabricators_of_create.Porting-Lib:lazy_registration:${project.port_lib_version}")
-	modImplementation("io.github.fabricators_of_create.Porting-Lib:mixin_extensions:${project.port_lib_version}")
-	modImplementation("io.github.fabricators_of_create.Porting-Lib:models:${project.port_lib_version}")
-	modImplementation("io.github.fabricators_of_create.Porting-Lib:registries:${project.port_lib_version}")
 	modImplementation("io.github.fabricators_of_create.Porting-Lib:tags:${project.port_lib_version}")
-	modImplementation("io.github.fabricators_of_create.Porting-Lib:tool_actions:${project.port_lib_version}")
-	modImplementation("io.github.fabricators_of_create.Porting-Lib:transfer:${project.port_lib_version}")
 	modImplementation("io.github.fabricators_of_create.Porting-Lib:utility:${project.port_lib_version}")
 	modImplementation "curse.maven:jade-324717:${jade_id}"
 	modImplementation("com.github.Chocohead:Fabric-ASM:${project.fabric_asm_version}")

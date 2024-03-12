@@ -1,4 +1,9 @@
 {
+    "affix.zephyr:telepathic": "Telepathic",
+    "affix.zephyr:telepathic.suffix": "of Space and Time",
+    "affix.zephyr:telepathic.desc.weapon": "Mob drops will teleport to you.",
+    "affix.zephyr:telepathic.desc.tool": "Mob drops will teleport to you.",
+
     "affix.zephyr:magic_weapons/attribute/volatile": "Volatile",
     "affix.zephyr:magic_weapons/attribute/volatile.suffix": "of Wild Magics",
     "affix.zephyr:magic_weapons/attribute/intricate": "Intricate",
