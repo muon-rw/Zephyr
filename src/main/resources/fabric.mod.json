@@ -16,7 +16,7 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-          "com.muon.zephyr.Zephyr"
+			"dev.muon.zephyr.Zephyr"
 		]
 	},
 	"depends": {

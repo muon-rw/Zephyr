@@ -1,9 +1,5 @@
-package com.muon.zephyr;
+package dev.muon.zephyr;
 
-import com.muon.zephyr.affixes.MagicTelepathicAffix;
-import dev.shadowsoffire.apotheosis.Apotheosis;
-import dev.shadowsoffire.apotheosis.adventure.affix.AffixRegistry;
-import dev.shadowsoffire.placebo.reload.DynamicHolder;
 import net.fabricmc.fabric.api.resource.ResourceManagerHelper;
 import net.fabricmc.fabric.api.resource.ResourcePackActivationType;
 import net.minecraft.resources.ResourceLocation;

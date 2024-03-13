@@ -1,4 +1,4 @@
-package com.muon.zephyr.mixin;
+package dev.muon.zephyr.mixin;
 
 import dev.shadowsoffire.attributeslib.AttributesLib;
 import dev.shadowsoffire.attributeslib.api.ALObjects;

@@ -1,7 +1,7 @@
-package com.muon.zephyr.mixin;
+package dev.muon.zephyr.mixin;
 
-import com.muon.zephyr.Zephyr;
-import com.muon.zephyr.affixes.MagicTelepathicAffix;
+import dev.muon.zephyr.Zephyr;
+import dev.muon.zephyr.affixes.MagicTelepathicAffix;
 import dev.shadowsoffire.apotheosis.adventure.affix.Affix;
 import dev.shadowsoffire.apotheosis.adventure.affix.AffixRegistry;
 import dev.shadowsoffire.placebo.reload.DynamicRegistry;

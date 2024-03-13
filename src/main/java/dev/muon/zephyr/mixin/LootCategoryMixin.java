@@ -1,4 +1,4 @@
-package com.muon.zephyr.mixin;
+package dev.muon.zephyr.mixin;
 
 
 import dev.shadowsoffire.apotheosis.adventure.loot.LootCategory;

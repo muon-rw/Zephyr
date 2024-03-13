@@ -1,20 +1,11 @@
-package com.muon.zephyr;
+package dev.muon.zephyr;
 
-import dev.shadowsoffire.apotheosis.adventure.AdventureConfig;
 import dev.shadowsoffire.apotheosis.adventure.loot.LootCategory;
-import net.bettercombat.api.WeaponAttributes;
-import net.bettercombat.logic.WeaponRegistry;
-import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.world.entity.EquipmentSlot;
-// import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.item.ItemStack;
-// import net.spell_engine.api.item.weapon.SpellWeaponItem;
-// import net.spell_engine.api.item.weapon.StaffItem;
 import net.spell_power.api.MagicSchool;
 import net.spell_power.api.attributes.EntityAttributes_SpellPower;
 
-import static dev.shadowsoffire.apotheosis.adventure.loot.LootCategory.HEAVY_WEAPON;
-import static dev.shadowsoffire.apotheosis.adventure.loot.LootCategory.VALUES;
 
 public class LootCategories {
     public static final LootCategory ELEMENTAL_STAFF = LootCategory.register(LootCategory.SWORD, "ELEMENTAL_STAFF", s->
