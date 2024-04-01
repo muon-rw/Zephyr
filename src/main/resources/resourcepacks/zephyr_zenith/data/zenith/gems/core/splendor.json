@@ -36,11 +36,8 @@
 					"heavy_weapon",
 					"shovel",
 					"pickaxe",
-					"ELEMENTAL_STAFF",
-					"FIRE_STAFF",
-					"FROST_STAFF",
-					"ARCANE_STAFF",
-					"HEALING_STAFF"
+					"staff",
+					"spell_weapon"
 				]
 			},
 			"attribute": "additionalentityattributes:dropped_experience",

@@ -8,8 +8,8 @@
 			"gem_class": {
 				"key": "fire_weapons",
 				"types": [
-					"ELEMENTAL_STAFF",
-					"FIRE_STAFF"
+					"staff",
+					"spell_weapon"
 				]
 			},
 			"attribute": "spell_power:fire",

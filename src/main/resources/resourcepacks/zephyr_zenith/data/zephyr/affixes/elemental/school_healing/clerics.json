@@ -1,6 +1,6 @@
 {
 	"type": "zenith:mob_effect",
-	"mob_effect": "spell_power:frost",
+	"mob_effect": "spell_power:healing",
 	"target": "SPELL_CAST_SELF",
 	"values": {
 		"rare": {
@@ -53,7 +53,7 @@
 		}
 	},
 	"types": [
-		"FROST_STAFF",
-		"ELEMENTAL_STAFF"
+		"staff",
+		"spell_weapon"
 	]
 }

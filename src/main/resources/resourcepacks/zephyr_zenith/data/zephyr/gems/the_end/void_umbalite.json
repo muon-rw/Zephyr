@@ -9,8 +9,8 @@
 			"gem_class": {
 				"key": "magic_weapons",
 				"types": [
-					"ELEMENTAL_STAFF",
-					"ARCANE_STAFF"
+					"staff",
+					"spell_weapon"
 				]
 			},
 			"attribute": "spell_power:arcane",

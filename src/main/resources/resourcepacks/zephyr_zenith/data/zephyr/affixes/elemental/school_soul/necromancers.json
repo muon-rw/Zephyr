@@ -1,6 +1,6 @@
 {
 	"type": "zenith:mob_effect",
-	"mob_effect": "spell_power:arcane",
+	"mob_effect": "spell_power:soul",
 	"target": "SPELL_CAST_SELF",
 	"values": {
 		"rare": {
@@ -53,7 +53,7 @@
 		}
 	},
 	"types": [
-		"ARCANE_STAFF",
-		"ELEMENTAL_STAFF"
+		"staff",
+		"spell_weapon"
 	]
 }

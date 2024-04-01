@@ -1,6 +1,6 @@
 {
 	"type": "zenith:attribute",
-	"attribute": "spell_power:frost",
+	"attribute": "spell_power:soul",
 	"operation": "MULTIPLY_BASE",
 	"values": {
 		"common": {
@@ -35,7 +35,7 @@
 		}
 	},
 	"types": [
-		"FROST_STAFF",
-		"ELEMENTAL_STAFF"
+		"staff",
+		"spell_weapon"
 	]
 }

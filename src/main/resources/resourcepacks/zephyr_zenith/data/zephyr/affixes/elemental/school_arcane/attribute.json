@@ -1,6 +1,6 @@
 {
 	"type": "zenith:attribute",
-	"attribute": "spell_power:soul",
+	"attribute": "spell_power:arcane",
 	"operation": "MULTIPLY_BASE",
 	"values": {
 		"common": {
@@ -35,6 +35,7 @@
 		}
 	},
 	"types": [
-		"SOUL_STAFF"
+		"staff",
+		"spell_weapon"
 	]
 }

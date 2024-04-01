@@ -1,6 +1,6 @@
 {
 	"type": "zenith:attribute",
-	"attribute": "spell_power:arcane",
+	"attribute": "spell_power:lightning",
 	"operation": "MULTIPLY_BASE",
 	"values": {
 		"common": {
@@ -35,7 +35,7 @@
 		}
 	},
 	"types": [
-		"ARCANE_STAFF",
-		"ELEMENTAL_STAFF"
+		"staff",
+		"spell_weapon"
 	]
 }

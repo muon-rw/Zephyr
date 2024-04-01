@@ -2,12 +2,22 @@ package dev.muon.zephyr;
 
 import net.fabricmc.fabric.api.resource.ResourceManagerHelper;
 import net.fabricmc.fabric.api.resource.ResourcePackActivationType;
+import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.ResourceLocation;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.loader.api.FabricLoader;
 import net.fabricmc.loader.api.ModContainer;
+import net.minecraft.world.item.ItemStack;
+import net.spell_power.api.MagicSchool;
+import net.spell_power.api.attributes.SpellAttributes;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
+import net.minecraft.world.entity.EquipmentSlot;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.core.registries.Registries;
+import net.spell_power.api.MagicSchool;
+import java.util.EnumSet;
+
 
 public class Zephyr implements ModInitializer {
     public static final Logger LOGGER = LogManager.getLogger("zephyr");
@@ -28,6 +38,8 @@ public class Zephyr implements ModInitializer {
 		}
 		return FabricLoader.getInstance().getModContainer(pack.getNamespace()).orElseThrow();
 	}
+
+
 
 	@Override
 	public void onInitialize() {

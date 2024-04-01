@@ -1,6 +1,6 @@
 {
 	"type": "zenith:attribute",
-	"attribute": "spell_power:lightning",
+	"attribute": "spell_power:healing",
 	"operation": "MULTIPLY_BASE",
 	"values": {
 		"common": {
@@ -35,6 +35,7 @@
 		}
 	},
 	"types": [
-		"LIGHTNING_STAFF"
+		"staff",
+		"spell_weapon"
 	]
 }

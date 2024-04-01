@@ -1,6 +1,6 @@
 {
 	"type": "zenith:mob_effect",
-	"mob_effect": "spell_power:soul",
+	"mob_effect": "spell_power:frost",
 	"target": "SPELL_CAST_SELF",
 	"values": {
 		"rare": {
@@ -53,6 +53,7 @@
 		}
 	},
 	"types": [
-		"SOUL_STAFF"
+		"staff",
+		"spell_weapon"
 	]
 }

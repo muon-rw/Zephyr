@@ -89,8 +89,6 @@ public class MagicTelepathicAffix extends Affix {
 
     @Override
     public boolean canApplyTo(ItemStack stack, LootCategory cat, LootRarity rarity) {
-        return (LootCategories.isElementalStaff(stack) || LootCategories.isArcaneStaff(stack) || LootCategories.isFireStaff(stack) ||
-                LootCategories.isFrostStaff(stack) || LootCategories.isLightningStaff(stack) || LootCategories.isSoulStaff(stack) ||
-                LootCategories.isHealingStaff(stack)) && rarity.isAtLeast(this.minRarity);
+        return (LootCategories.isStaff(stack) || LootCategories.isSpellWeapon(stack)) && rarity.isAtLeast(this.minRarity);
     }
 }

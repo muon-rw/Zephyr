@@ -8,7 +8,8 @@
 			"gem_class": {
 				"key": "healing_weapons",
 				"types": [
-					"HEALING_STAFF"
+					"staff",
+					"spell_weapon"
 				]
 			},
 			"attribute": "spell_power:healing",

@@ -35,7 +35,7 @@
 		}
 	},
 	"types": [
-		"FIRE_STAFF",
-		"ELEMENTAL_STAFF"
+		"staff",
+		"spell_weapon"
 	]
 }

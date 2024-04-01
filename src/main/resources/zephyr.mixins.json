@@ -6,7 +6,8 @@
   "mixins": [
     "JewelryAttributeMixin",
     "LootCategoryMixin",
-    "AffixRegistryMixin"
+    "AffixRegistryMixin",
+    "LootRarityMixin"
   ],
   "client": [
   ],
