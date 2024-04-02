@@ -16,11 +16,8 @@
 					"heavy_weapon", "helmet", "chestplate",
 					"leggings", "boots", "shield",
 					"trident", "sword",
-					"ELEMENTAL_STAFF",
-					"FIRE_STAFF",
-					"FROST_STAFF",
-					"ARCANE_STAFF",
-					"HEALING_STAFF"
+					"staff",
+					"spell_weapon"
 				]
 			},
 			"enchantment": "sharpness",

@@ -6,9 +6,10 @@
 	"bonuses": [{
 			"type": "apotheosis:attribute",
 			"gem_class": {
-				"key": "healing_weapons",
+				"key": "magic_weapons",
 				"types": [
-					"HEALING_STAFF"
+					"staff",
+					"spell_weapon"
 				]
 			},
 			"attribute": "spell_power:healing",

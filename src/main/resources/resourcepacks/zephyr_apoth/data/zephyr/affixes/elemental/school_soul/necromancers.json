@@ -53,6 +53,7 @@
 		}
 	},
 	"types": [
-		"SOUL_STAFF"
+		"staff",
+		"spell_weapon"
 	]
 }

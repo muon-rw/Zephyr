@@ -4,9 +4,9 @@
 	"dimensions": [
 	],
 	"bonuses": [{
-			"type": "zenith:attribute",
+			"type": "apotheosis:attribute",
 			"gem_class": {
-				"key": "fire_weapons",
+				"key": "magic_weapons",
 				"types": [
 					"staff",
 					"spell_weapon"
@@ -24,7 +24,7 @@
 			}
 		},
 		{
-			"type": "zenith:attribute",
+			"type": "apotheosis:attribute",
 			"gem_class": {
 				"key": "helmet",
 				"types": [
@@ -43,7 +43,7 @@
 			}
 		},
 		{
-			"type": "zenith:enchantment",
+			"type": "apotheosis:enchantment",
 			"gem_class": {
 				"key": "melee_weapon",
 				"types": [

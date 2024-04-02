@@ -31,11 +31,8 @@
 			"gem_class": {
 				"key": "magic_weapons",
 				"types": [
-					"ELEMENTAL_STAFF",
-					"FIRE_STAFF",
-					"FROST_STAFF",
-					"ARCANE_STAFF",
-					"HEALING_STAFF"
+					"staff",
+					"spell_weapon"
 				]
 			},
 			"enchantment": "spell_power:spell_power",

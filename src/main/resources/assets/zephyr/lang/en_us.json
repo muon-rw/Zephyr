@@ -24,95 +24,53 @@
     "affix.zephyr:magic_weapons/mob_effect/smothering": "Smothering",
     "affix.zephyr:magic_weapons/mob_effect/smothering.suffix": "of the Overwhelming Fog",
 
-    "affix.zephyr:elemental/attribute/electric": "Charged",
-    "affix.zephyr:elemental/attribute/electric.suffix": "of Scattering Sparks",
-    "affix.zephyr:elemental/mob_effect/electromancers": "Electromancer's",
-    "affix.zephyr:elemental/mob_effect/electromancers.suffix": "of the Arc-Shaman",
+    "affix.zephyr:elemental/school_lightning/attribute": "Charged",
+    "affix.zephyr:elemental/school_lightning/attribute.suffix": "of Scattering Sparks",
+    "affix.zephyr:elemental/school_lightning/electromancers": "Electromancer's",
+    "affix.zephyr:elemental/school_lightning/electromancers.suffix": "of the Arc-Shaman",
 
-    "affix.zephyr:elemental/attribute/voidborne": "Voidborne",
-    "affix.zephyr:elemental/attribute/voidborne.suffix": "of Esoteric Secrets",
-    "affix.zephyr:elemental/mob_effect/void_seers": "Void Seer's",
-    "affix.zephyr:elemental/mob_effect/void_seers.suffix": "of Forbidden Power",
+    "affix.zephyr:elemental/school_arcane/attribute": "Voidborne",
+    "affix.zephyr:elemental/school_arcane/attribute.suffix": "of Esoteric Secrets",
+    "affix.zephyr:elemental/school_arcane/void_seers": "Void Seer's",
+    "affix.zephyr:elemental/school_arcane/void_seers.suffix": "of Forbidden Power",
 
-    "affix.zephyr:elemental/attribute/glacial": "Glacial",
-    "affix.zephyr:elemental/attribute/glacial.suffix": "of Eternal Freezing",
-    "affix.zephyr:elemental/mob_effect/cryomancers": "Cryomancer's",
-    "affix.zephyr:elemental/mob_effect/cryomancers.suffix": "of True Ice",
+    "affix.zephyr:elemental/school_frost/attribute": "Glacial",
+    "affix.zephyr:elemental/school_frost/attribute.suffix": "of Eternal Freezing",
+    "affix.zephyr:elemental/school_frost/cryomancers": "Cryomancer's",
+    "affix.zephyr:elemental/school_frost/cryomancers.suffix": "of True Ice",
 
-    "affix.zephyr:elemental/attribute/sacred": "Sacred",
-    "affix.zephyr:elemental/attribute/sacred.suffix": "of the Eternal Heavens",
-    "affix.zephyr:elemental/mob_effect/clerics": "Cleric's",
-    "affix.zephyr:elemental/mob_effect/clerics.suffix": "of Unwavering Purity",
+    "affix.zephyr:elemental/school_healing/attribute": "Sacred",
+    "affix.zephyr:elemental/school_healing/attribute.suffix": "of the Eternal Heavens",
+    "affix.zephyr:elemental/school_healing/clerics": "Cleric's",
+    "affix.zephyr:elemental/school_healing/clerics.suffix": "of Unwavering Purity",
 
-    "affix.zephyr:elemental/attribute/soul": "Undead",
-    "affix.zephyr:elemental/attribute/soul.suffix": "of the Skeleton King",
-    "affix.zephyr:elemental/mob_effect/necromancers": "Necromancer's",
-    "affix.zephyr:elemental/mob_effect/necromancers.suffix": "of Unwilling Resurrection",
+    "affix.zephyr:elemental/school_soul/attribute": "Undead",
+    "affix.zephyr:elemental/school_soul/attribute.suffix": "of the Skeleton King",
+    "affix.zephyr:elemental/school_soul/necromancers": "Necromancer's",
+    "affix.zephyr:elemental/school_soul/necromancers.suffix": "of Unwilling Resurrection",
 
-    "affix.zephyr:elemental/attribute/infernal": "Infernal",
-    "affix.zephyr:elemental/attribute/infernal.suffix": "of Screaming Hellfire",
-    "affix.zephyr:elemental/mob_effect/pyromancers": "Pyromancer's",
-    "affix.zephyr:elemental/mob_effect/pyromancers.suffix": "of Insanity",
+    "affix.zephyr:elemental/school_fire/attribute": "Infernal",
+    "affix.zephyr:elemental/school_fire/attribute.suffix": "of Screaming Hellfire",
+    "affix.zephyr:elemental/school_fire/pyromancers": "Pyromancer's",
+    "affix.zephyr:elemental/school_fire/pyromancers.suffix": "of Insanity",
 
-	"text.zenith.category.FIRE_STAFF": "Fire Weapon",
-	"text.zenith.category.FIRE_STAFF.plural": "Fire Weapons",
+	"text.zenith.category.staff": "Staff",
+	"text.zenith.category.staff.plural": "Staffs",
 
-    "text.zenith.category.ARCANE_STAFF": "Arcane Weapon",
-	"text.zenith.category.ARCANE_STAFF.plural": "Arcane Weapons",
-
-    "text.zenith.category.FROST_STAFF": "Frost Weapon",
-	"text.zenith.category.FROST_STAFF.plural": "Frost Weapons",
-
-    "text.zenith.category.HEALING_STAFF": "Healing Weapon",
-	"text.zenith.category.HEALING_STAFF.plural": "Healing Weapons",
-
-    "text.zenith.category.LIGHTNING_STAFF": "Lightning Weapon",
-	"text.zenith.category.LIGHTNING_STAFF.plural": "Lightning Weapons",
-
-    "text.zenith.category.SOUL_STAFF": "Soul Weapon",
-	"text.zenith.category.SOUL_STAFF.plural": "Soul Weapons",
-
-    "text.zenith.category.ELEMENTAL_STAFF": "Elemental Weapon",
-	"text.zenith.category.ELEMENTAL_STAFF.plural": "Elemental Weapons",
+    "text.zenith.category.spell_weapon": "Spell Weapon",
+	"text.zenith.category.spell_weapon.plural": "Spell Weapons",
 
     "item.zenith.gem.zephyr:core/celsius_tear": "Celsius' Tear",
-    "item.zenith.gem.zephyr:the_nether/dragonfire_spessartite": "Dragonfire Spessartite",
+    "item.zenith.gem.zephyr:core/dragonfire_spessartite": "Dragonfire Spessartite",
     "item.zenith.gem.zephyr:core/luminous_opal": "Luminous Opal",
-    "item.zenith.gem.zephyr:the_end/void_umbalite": "Void Umbalite",
-
-    "text.apotheosis.category.FIRE_STAFF": "Fire Weapon",
-    "text.apotheosis.category.FIRE_STAFF.plural": "Fire Weapons",
-
-    "text.apotheosis.category.ARCANE_STAFF": "Arcane Weapon",
-    "text.apotheosis.category.ARCANE_STAFF.plural": "Arcane Weapons",
-
-    "text.apotheosis.category.FROST_STAFF": "Frost Weapon",
-    "text.apotheosis.category.FROST_STAFF.plural": "Frost Weapons",
-
-    "text.apotheosis.category.HEALING_STAFF": "Healing Weapon",
-    "text.apotheosis.category.HEALING_STAFF.plural": "Healing Weapons",
-
-    "text.apotheosis.category.LIGHTNING_STAFF": "Lightning Weapon",
-    "text.apotheosis.category.LIGHTNING_STAFF.plural": "Lightning Weapons",
-
-    "text.apotheosis.category.SOUL_STAFF": "Soul Weapon",
-    "text.apotheosis.category.SOUL_STAFF.plural": "Soul Weapons",
-
-    "text.apotheosis.category.ELEMENTAL_STAFF": "Elemental Weapon",
-    "text.apotheosis.category.ELEMENTAL_STAFF.plural": "Elemental Weapons",
+    "item.zenith.gem.zephyr:core/void_umbalite": "Void Umbalite",
 
     "item.apotheosis.gem.zephyr:core/celsius_tear": "Celsius' Tear",
-    "item.apotheosis.gem.zephyr:the_nether/dragonfire_spessartite": "Dragonfire Spessartite",
+    "item.apotheosis.gem.zephyr:core/dragonfire_spessartite": "Dragonfire Spessartite",
     "item.apotheosis.gem.zephyr:core/luminous_opal": "Luminous Opal",
-    "item.apotheosis.gem.zephyr:the_end/void_umbalite": "Void Umbalite",
+    "item.apotheosis.gem.zephyr:core/void_umbalite": "Void Umbalite",
 
-    "gem_class.magic_weapons": "Any Magic Weapons",
-    "gem_class.fire_weapons": "Fire Weapons",
-    "gem_class.frost_weapons": "Frost Weapons",
-    "gem_class.arcane_weapons": "Arcane Weapons",
-    "gem_class.healing_weapons": "Healing Weapons",
-    "gem_class.lightning_weapons": "Lightning Weapons",
-    "gem_class.soul_weapons": "Soul Weapons",
+    "gem_class.magic_weapons": "Magic Weapons",
 
     "affix.zenith.target.spell_cast_self": "On spell cast, gain %s",
     "affix.zenith.target.spell_cast_target": "On spell cast, inflict %s"

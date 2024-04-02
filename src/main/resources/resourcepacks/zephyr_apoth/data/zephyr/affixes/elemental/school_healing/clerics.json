@@ -53,6 +53,7 @@
 		}
 	},
 	"types": [
-		"HEALING_STAFF"
+		"staff",
+		"spell_weapon"
 	]
 }

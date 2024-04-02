@@ -1,5 +1,5 @@
 {
-	"type": "zenith:attribute",
+	"type": "apotheosis:attribute",
 	"attribute": "spell_power:fire",
 	"operation": "ADDITION",
 	"values": {

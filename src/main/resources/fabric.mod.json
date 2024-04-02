@@ -25,7 +25,7 @@
 		"java": ">=17",
 		"fabric-api": "*",
 		"zenith": "*",
-		"spell_power": "*",
+		"spell_power": "<=0.9.19",
 		"bettercombat": "*"
 	},
 	"suggests": {

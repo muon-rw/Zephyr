@@ -3,16 +3,17 @@
 	"quality": 2,
 	"dimensions": [
 	],
-	"bonuses": [{
+	"bonuses": [
+		{
 			"type": "apotheosis:attribute",
 			"gem_class": {
-				"key": "fire_weapons",
+				"key": "magic_weapons",
 				"types": [
-					"ELEMENTAL_STAFF",
-					"FIRE_STAFF"
+					"staff",
+					"spell_weapon"
 				]
 			},
-			"attribute": "spell_power:fire",
+			"attribute": "spell_power:arcane",
 			"operation": "MULTIPLY_BASE",
 			"values": {
 				"common": 0.05,
@@ -31,32 +32,34 @@
 					"helmet"
 				]
 			},
-			"attribute": "spell_power:critical_chance",
+			"attribute": "spell_power:critical_damage",
 			"operation": "MULTIPLY_BASE",
 			"values": {
-				"common": 0.01,
-				"uncommon": 0.02,
-				"rare": 0.04,
-				"epic": 0.06,
-				"mythic": 0.08,
-				"ancient": 0.10
+				"common": 0.05,
+				"uncommon": 0.075,
+				"rare": 0.10,
+				"epic": 0.15,
+				"mythic": 0.20,
+				"ancient": 0.25
 			}
 		},
 		{
-			"type": "apotheosis:enchantment",
+			"type": "apotheosis:damage_reduction",
 			"gem_class": {
-				"key": "melee_weapon",
+				"key": "core_armor",
 				"types": [
-					"sword",
-					"heavy_weapon"
+					"chestplate",
+					"leggings"
 				]
 			},
-			"enchantment": "minecraft:fire_aspect",
+			"damage_type": "magic",
 			"values": {
-				"rare": 1,
-				"epic": 1,
-				"mythic": 2,
-				"ancient": 3
+				"common": 0.0125,
+				"uncommon": 0.025,
+				"rare": 0.05,
+				"epic": 0.075,
+				"mythic": 0.10,
+				"ancient": 0.125
 			}
 		}
 	]

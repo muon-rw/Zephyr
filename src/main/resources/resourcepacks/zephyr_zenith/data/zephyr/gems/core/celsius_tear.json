@@ -6,7 +6,7 @@
 		{
 			"type": "zenith:attribute",
 			"gem_class": {
-				"key": "frost_weapons",
+				"key": "magic_weapons",
 				"types": [
 					"staff",
 					"spell_weapon"

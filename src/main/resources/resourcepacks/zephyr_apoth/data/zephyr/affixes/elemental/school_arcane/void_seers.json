@@ -1,6 +1,6 @@
 {
 	"type": "apotheosis:mob_effect",
-	"mob_effect": "spell_power:lightning",
+	"mob_effect": "spell_power:arcane",
 	"target": "SPELL_CAST_SELF",
 	"values": {
 		"rare": {
@@ -53,6 +53,7 @@
 		}
 	},
 	"types": [
-		"LIGHTNING_STAFF"
+		"staff",
+		"spell_weapon"
 	]
 }

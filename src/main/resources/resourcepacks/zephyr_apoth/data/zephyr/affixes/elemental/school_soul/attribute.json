@@ -1,6 +1,6 @@
 {
-	"type": "zenith:attribute",
-	"attribute": "spell_power:fire",
+	"type": "apotheosis:attribute",
+	"attribute": "spell_power:soul",
 	"operation": "ADDITION",
 	"values": {
 		"common": {
