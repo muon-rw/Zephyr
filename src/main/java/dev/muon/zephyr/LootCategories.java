@@ -8,12 +8,14 @@ import net.spell_engine.api.item.weapon.StaffItem;
 import net.spell_power.api.MagicSchool;
 import net.spell_power.api.attributes.EntityAttributes_SpellPower;
 
+import java.util.EnumSet;
+
 
 public class LootCategories {
     public static final LootCategory STAFF = LootCategory.register(LootCategory.SWORD, "staff",
-            s -> s.getItem() instanceof StaffItem, arr(EquipmentSlot.MAINHAND));
+            s -> s.getItem() instanceof StaffItem && hasSpellPower(s), arr(EquipmentSlot.MAINHAND));
     public static final LootCategory SPELL_WEAPON = LootCategory.register(LootCategory.SWORD, "spell_weapon",
-            s -> s.getItem() instanceof SpellWeaponItem, arr(EquipmentSlot.MAINHAND));
+            s -> s.getItem() instanceof SpellWeaponItem && hasSpellPower(s), arr(EquipmentSlot.MAINHAND));
 
     // Switched to verifying valid elemental affixes automatically, see LootRarityMixin and AffixSchoolMapper
     /*
@@ -40,6 +42,13 @@ public class LootCategories {
     }
     public static boolean isSpellWeapon(ItemStack stack) { return LootCategory.forItem(stack).equals(SPELL_WEAPON);}
     public static boolean isStaff(ItemStack stack) { return LootCategory.forItem(stack).equals(STAFF);}
+    private static boolean hasSpellPower(ItemStack stack) {
+        EnumSet<MagicSchool> schools = EnumSet.allOf(MagicSchool.class);
+        return schools.stream().anyMatch(school ->
+                stack.getItem().getAttributeModifiers(stack, EquipmentSlot.MAINHAND)
+                        .get(EntityAttributes_SpellPower.POWER.get(school)).stream()
+                        .anyMatch(modifier -> modifier.getAmount() > 0.0));
+    }
 
     /*
     public static boolean isElementalStaff(ItemStack stack) { return LootCategory.forItem(stack).equals(ELEMENTAL_STAFF);}

@@ -1,6 +1,8 @@
 plugins {
 	id 'fabric-loom' version '1.5-SNAPSHOT'
 	id 'maven-publish'
+	id "com.modrinth.minotaur" version "2.+"
+	id 'net.darkhax.curseforgegradle' version "1.1.16"
 }
 
 version = project.mod_version
@@ -136,4 +138,37 @@ publishing {
 		// The repositories here will be used for publishing your artifact, not for
 		// retrieving dependencies.
 	}
+}
+
+modrinth {
+	token = System.getenv("MODRINTH_TOKEN")
+	projectId = "zephyr"
+	versionType = "beta"
+	versionName = "Zephyr " + project.version
+	uploadFile = remapJar
+	gameVersions = ["1.20.1"]
+	loaders = ["fabric"]
+	changelog = "[Changelog](https://github.com/muon-rw/Zephyr/blob/1.20/changelog.md)"
+	//debugMode = true
+	dependencies {
+		required.project("zenith")
+		required.project("spell-power")
+	}
+}
+
+task publishCurseForge(type: net.darkhax.curseforgegradle.TaskPublishCurseForge) {
+	apiToken = System.getenv("CF_TOKEN")
+	//debugMode = true
+	def mainFile = upload(924809, remapJar)
+	mainFile.changelog = "https://github.com/muon-rw/Zephyr/blob/1.20/changelog.md"
+	mainFile.releaseType = "beta"
+	mainFile.addGameVersion("1.20.1")
+	mainFile.addModLoader("fabric")
+	mainFile.displayName = project.archives_base_name + "-" + project.version
+	mainFile.addRequirement("zenith")
+	mainFile.addRequirement("spell-power")
+	mainFile.addOptional("better-combat-by-daedelus")
+	mainFile.addOptional("paladins-and-priests")
+	mainFile.addOptional("wizards")
+	mainFile.addOptional("jewelry")
 }

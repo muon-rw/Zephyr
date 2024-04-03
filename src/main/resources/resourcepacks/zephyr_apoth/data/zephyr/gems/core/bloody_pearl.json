@@ -1,0 +1,63 @@
+{
+	"weight": 5,
+	"quality": 2,
+	"dimensions": [
+	],
+	"bonuses": [{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "magic_weapons",
+				"types": [
+					"staff",
+					"spell_weapon"
+				]
+			},
+			"attribute": "spell_power:soul",
+			"operation": "MULTIPLY_BASE",
+			"values": {
+				"common": 0.05,
+				"uncommon": 0.1,
+				"rare": 0.15,
+				"epic": 0.2,
+				"mythic": 0.25,
+				"ancient": 0.3
+			}
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "helmet",
+				"types": [
+					"helmet"
+				]
+			},
+			"attribute": "spell_power:critical_chance",
+			"operation": "MULTIPLY_BASE",
+			"values": {
+				"common": 0.01,
+				"uncommon": 0.02,
+				"rare": 0.04,
+				"epic": 0.06,
+				"mythic": 0.08,
+				"ancient": 0.10
+			}
+		},
+		{
+			"type": "apotheosis:enchantment",
+			"gem_class": {
+				"key": "melee_weapon",
+				"types": [
+					"sword",
+					"heavy_weapon"
+				]
+			},
+			"enchantment": "minecraft:fire_aspect",
+			"values": {
+				"rare": 1,
+				"epic": 1,
+				"mythic": 2,
+				"ancient": 3
+			}
+		}
+	]
+}

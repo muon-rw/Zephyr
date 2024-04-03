@@ -4,7 +4,7 @@
 	"dimensions": [],
 	"bonuses": [
 		{
-			"type": "apotheosis:attribute",
+			"type": "zenith:attribute",
 			"gem_class": {
 				"key": "magic_weapons",
 				"types": [
@@ -24,7 +24,7 @@
 			}
 		},
 		{
-			"type": "apotheosis:enchantment",
+			"type": "zenith:enchantment",
 			"gem_class": {
 				"key": "boots",
 				"types": [
@@ -41,7 +41,7 @@
 			}
 		},
 		{
-			"type": "apotheosis:enchantment",
+			"type": "zenith:enchantment",
 			"gem_class": {
 				"key": "core_armor",
 				"types": [
@@ -49,7 +49,7 @@
 					"leggings"
 				]
 			},
-			"enchantment": "apotheosis:icy_thorns",
+			"enchantment": "zenith:icy_thorns",
 			"values": {
 				"rare": 1,
 				"epic": 1,
@@ -58,7 +58,7 @@
 			}
 		},
 		{
-			"type": "apotheosis:durability",
+			"type": "zenith:durability",
 			"gem_class": {
 				"key": "melee_weapon",
 				"types": [

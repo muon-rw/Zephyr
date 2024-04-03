@@ -27,48 +27,70 @@
     "affix.zephyr:elemental/school_lightning/attribute": "Charged",
     "affix.zephyr:elemental/school_lightning/attribute.suffix": "of Scattering Sparks",
     "affix.zephyr:elemental/school_lightning/electromancers": "Electromancer's",
-    "affix.zephyr:elemental/school_lightning/electromancers.suffix": "of the Arc-Shaman",
+    "affix.zephyr:elemental/school_lightning/electromancers.suffix": "of the Shaman",
+    "affix.zephyr:elemental/school_lightning/electromancers_melee": "Electromancer's",
+    "affix.zephyr:elemental/school_lightning/electromancers_melee.suffix": "of the Shaman",
 
     "affix.zephyr:elemental/school_arcane/attribute": "Voidborne",
     "affix.zephyr:elemental/school_arcane/attribute.suffix": "of Esoteric Secrets",
     "affix.zephyr:elemental/school_arcane/void_seers": "Void Seer's",
     "affix.zephyr:elemental/school_arcane/void_seers.suffix": "of Forbidden Power",
+    "affix.zephyr:elemental/school_arcane/void_seers_melee": "Void Seer's",
+    "affix.zephyr:elemental/school_arcane/void_seers_melee.suffix": "of Forbidden Power",
 
     "affix.zephyr:elemental/school_frost/attribute": "Glacial",
     "affix.zephyr:elemental/school_frost/attribute.suffix": "of Eternal Freezing",
     "affix.zephyr:elemental/school_frost/cryomancers": "Cryomancer's",
     "affix.zephyr:elemental/school_frost/cryomancers.suffix": "of True Ice",
+    "affix.zephyr:elemental/school_frost/cryomancers_melee": "Cryomancer's",
+    "affix.zephyr:elemental/school_frost/cryomancers_melee.suffix": "of True Ice",
 
     "affix.zephyr:elemental/school_healing/attribute": "Sacred",
     "affix.zephyr:elemental/school_healing/attribute.suffix": "of the Eternal Heavens",
     "affix.zephyr:elemental/school_healing/clerics": "Cleric's",
     "affix.zephyr:elemental/school_healing/clerics.suffix": "of Unwavering Purity",
+    "affix.zephyr:elemental/school_healing/clerics_melee": "Cleric's",
+    "affix.zephyr:elemental/school_healing/clerics_melee.suffix": "of Unwavering Purity",
 
     "affix.zephyr:elemental/school_soul/attribute": "Undead",
     "affix.zephyr:elemental/school_soul/attribute.suffix": "of the Skeleton King",
     "affix.zephyr:elemental/school_soul/necromancers": "Necromancer's",
     "affix.zephyr:elemental/school_soul/necromancers.suffix": "of Unwilling Resurrection",
+    "affix.zephyr:elemental/school_soul/necromancers_melee": "Necromancer's",
+    "affix.zephyr:elemental/school_soul/necromancers_melee.suffix": "of Unwilling Resurrection",
 
     "affix.zephyr:elemental/school_fire/attribute": "Infernal",
     "affix.zephyr:elemental/school_fire/attribute.suffix": "of Screaming Hellfire",
     "affix.zephyr:elemental/school_fire/pyromancers": "Pyromancer's",
     "affix.zephyr:elemental/school_fire/pyromancers.suffix": "of Insanity",
+    "affix.zephyr:elemental/school_fire/pyromancers_melee": "Pyromancer's",
+    "affix.zephyr:elemental/school_fire/pyromancers_melee.suffix": "of Insanity",
 
 	"text.zenith.category.staff": "Staff",
 	"text.zenith.category.staff.plural": "Staffs",
-
     "text.zenith.category.spell_weapon": "Spell Weapon",
 	"text.zenith.category.spell_weapon.plural": "Spell Weapons",
+
+    "text.apotheosis.category.staff": "Staff",
+	"text.apotheosis.category.staff.plural": "Staffs",
+    "text.apotheosis.category.spell_weapon": "Spell Weapon",
+	"text.apotheosis.category.spell_weapon.plural": "Spell Weapons",
 
     "item.zenith.gem.zephyr:core/celsius_tear": "Celsius' Tear",
     "item.zenith.gem.zephyr:core/dragonfire_spessartite": "Dragonfire Spessartite",
     "item.zenith.gem.zephyr:core/luminous_opal": "Luminous Opal",
     "item.zenith.gem.zephyr:core/void_umbalite": "Void Umbalite",
+    "item.zenith.gem.zephyr:core/bloody_pearl": "Bloody Pearl",
+    "item.zenith.gem.zephyr:core/effervescent_brimstone": "Effervescent Brimstone",
+
 
     "item.apotheosis.gem.zephyr:core/celsius_tear": "Celsius' Tear",
     "item.apotheosis.gem.zephyr:core/dragonfire_spessartite": "Dragonfire Spessartite",
     "item.apotheosis.gem.zephyr:core/luminous_opal": "Luminous Opal",
     "item.apotheosis.gem.zephyr:core/void_umbalite": "Void Umbalite",
+    "item.apotheosis.gem.zephyr:core/bloody_pearl": "Bloody Pearl",
+    "item.apotheosis.gem.zephyr:core/effervescent_brimstone": "Effervescent Brimstone",
+
 
     "gem_class.magic_weapons": "Magic Weapons",
 

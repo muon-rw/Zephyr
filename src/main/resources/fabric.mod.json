@@ -25,8 +25,7 @@
 		"java": ">=17",
 		"fabric-api": "*",
 		"zenith": "*",
-		"spell_power": "<=0.9.19",
-		"bettercombat": "*"
+		"spell_power": "<=0.9.19"
 	},
 	"suggests": {
 		"another-mod": "*"
