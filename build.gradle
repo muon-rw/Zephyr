@@ -142,8 +142,8 @@ publishing {
 
 modrinth {
 	token = System.getenv("MODRINTH_TOKEN")
-	projectId = "zephyr"
-	versionType = "beta"
+	projectId = "zephyr-mod"
+	versionType = "release"
 	versionName = "Zephyr " + project.version
 	uploadFile = remapJar
 	gameVersions = ["1.20.1"]
@@ -161,7 +161,7 @@ task publishCurseForge(type: net.darkhax.curseforgegradle.TaskPublishCurseForge)
 	//debugMode = true
 	def mainFile = upload(924809, remapJar)
 	mainFile.changelog = "https://github.com/muon-rw/Zephyr/blob/1.20/changelog.md"
-	mainFile.releaseType = "beta"
+	mainFile.releaseType = "release"
 	mainFile.addGameVersion("1.20.1")
 	mainFile.addModLoader("fabric")
 	mainFile.displayName = project.archives_base_name + "-" + project.version
