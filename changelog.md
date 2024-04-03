@@ -2,6 +2,7 @@
 ### Major affix/gem refactor, existing datapacks will break
 - Removed elemental loot categories, instead separating by STAFF or SPELL_WEAPON
 - Elemental affixes will now sort automatically depending on which spell power attributes are present on gear
+- Added new gems for Soul and Lightning spell power
 - Changed default elemental affixes to addition instead of multiply (looks nicer in tooltips)
 - Made Jewelry and Better Combat optional
 
