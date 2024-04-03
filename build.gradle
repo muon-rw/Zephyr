@@ -148,7 +148,7 @@ modrinth {
 	uploadFile = remapJar
 	gameVersions = ["1.20.1"]
 	loaders = ["fabric"]
-	changelog = "[Changelog](https://github.com/muon-rw/Zephyr/blob/1.20/changelog.md)"
+	changelog = "[Changelog](https://github.com/muon-rw/Zephyr/blob/master/changelog.md)"
 	//debugMode = true
 	dependencies {
 		required.project("zenith")
@@ -160,7 +160,7 @@ task publishCurseForge(type: net.darkhax.curseforgegradle.TaskPublishCurseForge)
 	apiToken = System.getenv("CF_TOKEN")
 	//debugMode = true
 	def mainFile = upload(924809, remapJar)
-	mainFile.changelog = "https://github.com/muon-rw/Zephyr/blob/1.20/changelog.md"
+	mainFile.changelog = "https://github.com/muon-rw/Zephyr/blob/master/changelog.md"
 	mainFile.releaseType = "release"
 	mainFile.addGameVersion("1.20.1")
 	mainFile.addModLoader("fabric")
