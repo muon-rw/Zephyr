@@ -1,5 +1,5 @@
 {
-	"type": "apotheosis:mob_effect",
+	"type": "zenith:mob_effect",
 	"mob_effect": "spell_power:frost",
 	"target": "SPELL_CAST_SELF",
 	"values": {
@@ -53,7 +53,7 @@
 		}
 	},
 	"types": [
-		"staff",
-		"wand"
+		"sword",
+		"heavy_weapon"
 	]
 }

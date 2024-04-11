@@ -1,7 +1,7 @@
 {
-	"type": "apotheosis:mob_effect",
-	"mob_effect": "spell_power:frost",
-	"target": "SPELL_CAST_SELF",
+	"type": "zenith:mob_effect",
+	"mob_effect": "spell_power:soul",
+	"target": "ATTACK_SELF",
 	"values": {
 		"rare": {
 			"duration": {
@@ -53,7 +53,7 @@
 		}
 	},
 	"types": [
-		"staff",
-		"wand"
+		"sword",
+		"heavy_weapon"
 	]
 }
