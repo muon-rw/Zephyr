@@ -13,7 +13,8 @@ public class AffixSchoolMapper {
     // Valid elemental affixes still need to be assigned the normal way for a piece of gear
     // They are then sorted to only apply to the appropriate matching gear sets based on the presence of attributes
     // If you want to use this behavior, place your elemental affix in an /affixes/elemental/school_schoolname/ directory
-    // ex.: /data/zephyr/affixes/elemental/school_fire/attribute.json
+    // "schoolname" should match the entry name for a SpellSchool.
+    // ex.: /data/zephyr/affixes/elemental/school_fire/attribute.json matches SpellSchools.FIRE
     // Currently this sorting behavior only applies to weapons, due to how attribute modifiers are detected
     // More sortable exclusion rules can be added trivially, feel free to make an issue report for it.
     public static Set<SpellSchool> getSpellSchoolsFromGear(ItemStack stack, EquipmentSlot slot) {
