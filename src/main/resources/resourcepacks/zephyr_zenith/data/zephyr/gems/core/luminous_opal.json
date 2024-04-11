@@ -1,17 +1,15 @@
 {
 	"weight": 5,
 	"quality": 2,
-	"dimensions": [
-	],
-	"bonuses": [{
+	"dimensions": [],
+	"bonuses": [
+		{
 			"type": "zenith:attribute",
 			"gem_class": {
 				"key": "magic_weapons",
 				"types": [
 					"staff",
-					"wand",
-					"sword",
-					"heavy_weapon"
+					"wand"
 				]
 			},
 			"attribute": "spell_power:healing",
@@ -23,6 +21,26 @@
 				"epic": 0.2,
 				"mythic": 0.25,
 				"ancient": 0.3
+			}
+		},
+		{
+			"type": "zenith:attribute",
+			"gem_class": {
+				"key": "melee_weapon",
+				"types": [
+					"sword",
+					"heavy_weapon"
+				]
+			},
+			"attribute": "spell_power:healing",
+			"operation": "ADDITION",
+			"values": {
+				"common": 0.25,
+				"uncommon": 0.5,
+				"rare": 0.75,
+				"epic": 1.0,
+				"mythic": 1.25,
+				"ancient": 1.5
 			}
 		},
 		{

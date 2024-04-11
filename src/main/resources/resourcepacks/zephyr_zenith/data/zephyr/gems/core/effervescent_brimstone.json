@@ -51,15 +51,15 @@
 					"helmet"
 				]
 			},
-			"attribute": "spell_power:critical_chance",
+			"attribute": "zenith_attributes:overheal",
 			"operation": "MULTIPLY_BASE",
 			"values": {
-				"common": 0.01,
-				"uncommon": 0.02,
-				"rare": 0.04,
-				"epic": 0.06,
-				"mythic": 0.08,
-				"ancient": 0.10
+				"common": 0.025,
+				"uncommon": 0.075,
+				"rare": 0.125,
+				"epic": 0.15,
+				"mythic": 0.20,
+				"ancient": 0.25
 			}
 		}
 	]

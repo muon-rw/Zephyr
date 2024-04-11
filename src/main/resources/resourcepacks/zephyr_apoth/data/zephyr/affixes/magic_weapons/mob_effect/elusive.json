@@ -54,8 +54,6 @@
 	},
 	"types": [
 		"staff",
-		"wand",
-		"sword",
-		"heavy_weapon"
+		"wand"
 	]
 }

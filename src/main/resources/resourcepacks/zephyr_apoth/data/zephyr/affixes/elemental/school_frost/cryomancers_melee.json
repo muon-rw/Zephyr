@@ -1,5 +1,5 @@
 {
-	"type": "zenith:mob_effect",
+	"type": "apotheosis:mob_effect",
 	"mob_effect": "spell_power:frost",
 	"target": "SPELL_CAST_SELF",
 	"values": {

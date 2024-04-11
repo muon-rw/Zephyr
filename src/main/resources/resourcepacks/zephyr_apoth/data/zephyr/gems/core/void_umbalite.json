@@ -74,11 +74,11 @@
 			"damage_type": "magic",
 			"values": {
 				"common": 0.0125,
-				"uncommon": 0.025,
-				"rare": 0.05,
-				"epic": 0.075,
-				"mythic": 0.10,
-				"ancient": 0.125
+				"uncommon": 0.02,
+				"rare": 0.04,
+				"epic": 0.006,
+				"mythic": 0.08,
+				"ancient": 0.1
 			}
 		}
 	]

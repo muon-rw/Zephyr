@@ -45,22 +45,21 @@
 			}
 		},
 		{
-			"type": "apotheosis:attribute",
+			"type": "apotheosis:enchantment",
 			"gem_class": {
-				"key": "helmet",
+				"key": "core_armor",
 				"types": [
-					"helmet"
+					"helmet",
+					"chestplate",
+					"leggings",
+					"boots"
 				]
 			},
-			"attribute": "spell_power:critical_chance",
-			"operation": "MULTIPLY_BASE",
+			"enchantment": "apotheosis:life_mending",
 			"values": {
-				"common": 0.01,
-				"uncommon": 0.02,
-				"rare": 0.04,
-				"epic": 0.06,
-				"mythic": 0.08,
-				"ancient": 0.10
+				"epic": 1,
+				"mythic": 1,
+				"ancient": 1
 			}
 		}
 	]
