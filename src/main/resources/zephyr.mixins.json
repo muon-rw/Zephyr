@@ -5,10 +5,12 @@
   "compatibilityLevel": "JAVA_17",
   "plugin": "dev.muon.zephyr.mixin.ZephyrMixinPlugin",
   "mixins": [
-    "JewelryAttributeMixin",
     "LootCategoryMixin",
     "AffixRegistryMixin",
-    "LootRarityMixin"
+    "LootRarityMixin",
+    "AttributesMixin",
+    "ALObjectsAttributesMixin",
+    "JewelryItemsMixin"
   ],
   "client": [
   ],

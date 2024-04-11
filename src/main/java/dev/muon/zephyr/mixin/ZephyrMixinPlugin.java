@@ -21,14 +21,15 @@ public class ZephyrMixinPlugin implements IMixinConfigPlugin {
 
     @Override
     public boolean shouldApplyMixin(String targetClassName, String mixinClassName) {
-        if (mixinClassName.equals("dev.muon.zephyr.mixin.JewelryAttributeMixin")) {
-            return FabricLoader.getInstance().isModLoaded("jewelry");
+        if (mixinClassName.equals("dev.muon.zephyr.mixin.AttributesMixin") || mixinClassName.equals("dev.muon.zephyr.mixin.ALObjectsAttributesMixin")) {
+            return FabricLoader.getInstance().isModLoaded("zenith") && !FabricLoader.getInstance().isModLoaded("apotheosis");
         }
         else if (mixinClassName.equals("dev.muon.zephyr.mixin.LootCategoryMixin")) {
             return FabricLoader.getInstance().isModLoaded("bettercombat");
         }
         return true;
     }
+
 
     @Override
     public void acceptTargets(Set<String> myTargets, Set<String> otherTargets) {
