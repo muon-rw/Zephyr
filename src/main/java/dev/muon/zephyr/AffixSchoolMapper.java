@@ -10,11 +10,16 @@ import net.spell_power.api.enchantment.SpellPowerEnchanting;
 import java.util.Set;
 
 public class AffixSchoolMapper {
-
+    // Valid elemental affixes still need to be assigned the normal way for a piece of gear
+    // They are then sorted to only apply to the appropriate matching gear sets based on the presence of attributes
+    // If you want to use this behavior, place your elemental affix in an /affixes/elemental/school_schoolname/ directory
+    // ex.: /data/zephyr/affixes/elemental/school_fire/attribute.json
+    // Currently this sorting behavior only applies to weapons, due to how attribute modifiers are detected
+    // More sortable exclusion rules can be added trivially, feel free to make an issue report for it.
     public static Set<SpellSchool> getSpellSchoolsFromGear(ItemStack stack, EquipmentSlot slot) {
         return SpellPowerEnchanting.relevantSchools(stack, slot);
     }
-    public static Set<SpellSchool> getSpellSchoolsFromGear(ItemStack stack) {
+    public static Set<SpellSchool> getSpellSchoolsFromWeapon(ItemStack stack) {
         return getSpellSchoolsFromGear(stack, EquipmentSlot.MAINHAND);
     }
 
