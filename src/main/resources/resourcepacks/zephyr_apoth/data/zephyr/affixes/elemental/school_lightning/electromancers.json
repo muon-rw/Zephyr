@@ -54,6 +54,8 @@
 	},
 	"types": [
 		"staff",
-		"spell_weapon"
+		"wand",
+		"sword",
+		"heavy_weapon"
 	]
 }

@@ -14,7 +14,7 @@
 					"crossbow"
 				]
 			},
-			"attribute": "zenith_attributes:draw_speed",
+			"attribute": "ranged_weapon:haste",
 			"operation": "MULTIPLY_BASE",
 			"values": {
 				"common": 0.10,
@@ -31,7 +31,9 @@
 				"key": "magic_weapons",
 				"types": [
 					"staff",
-					"spell_weapon"
+					"wand",
+					"sword",
+					"heavy_weapon"
 				]
 			},
 			"attribute": "spell_power:haste",

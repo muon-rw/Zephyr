@@ -32,7 +32,7 @@
 				"key": "magic_weapons",
 				"types": [
 					"staff",
-					"spell_weapon"
+					"wand"
 				]
 			},
 			"enchantment": "spell_power:spell_power",

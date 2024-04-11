@@ -4,12 +4,12 @@
 	"dimensions": [],
 	"bonuses": [
 		{
-			"type": "zenith:attribute",
+			"type": "apotheosis:attribute",
 			"gem_class": {
 				"key": "magic_weapons",
 				"types": [
 					"staff",
-					"spell_weapon"
+					"wand"
 				]
 			},
 			"attribute": "spell_power:frost",
@@ -24,7 +24,27 @@
 			}
 		},
 		{
-			"type": "zenith:enchantment",
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "melee_weapon",
+				"types": [
+					"sword",
+					"heavy_weapon"
+				]
+			},
+			"attribute": "spell_power:frost",
+			"operation": "ADDITION",
+			"values": {
+				"common": 0.25,
+				"uncommon": 0.5,
+				"rare": 0.75,
+				"epic": 1.0,
+				"mythic": 1.25,
+				"ancient": 1.5
+			}
+		},
+		{
+			"type": "apotheosis:enchantment",
 			"gem_class": {
 				"key": "boots",
 				"types": [
@@ -41,7 +61,7 @@
 			}
 		},
 		{
-			"type": "zenith:enchantment",
+			"type": "apotheosis:enchantment",
 			"gem_class": {
 				"key": "core_armor",
 				"types": [
@@ -49,31 +69,12 @@
 					"leggings"
 				]
 			},
-			"enchantment": "zenith:icy_thorns",
+			"enchantment": "apotheosis:icy_thorns",
 			"values": {
 				"rare": 1,
 				"epic": 1,
 				"mythic": 2,
 				"ancient": 2
-			}
-		},
-		{
-			"type": "zenith:durability",
-			"gem_class": {
-				"key": "melee_weapon",
-				"types": [
-					"sword",
-					"heavy_weapon",
-					"trident"
-				]
-			},
-			"values": {
-				"common": 0.05,
-				"uncommon": 0.10,
-				"rare": 0.15,
-				"epic": 0.225,
-				"mythic": 0.30,
-				"ancient": 0.40
 			}
 		}
 	]

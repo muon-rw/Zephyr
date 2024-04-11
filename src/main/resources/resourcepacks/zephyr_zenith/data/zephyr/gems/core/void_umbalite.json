@@ -1,8 +1,7 @@
 {
 	"weight": 5,
 	"quality": 2,
-	"dimensions": [
-	],
+	"dimensions": [],
 	"bonuses": [
 		{
 			"type": "zenith:attribute",
@@ -10,7 +9,7 @@
 				"key": "magic_weapons",
 				"types": [
 					"staff",
-					"spell_weapon"
+					"wand"
 				]
 			},
 			"attribute": "spell_power:arcane",
@@ -22,6 +21,26 @@
 				"epic": 0.2,
 				"mythic": 0.25,
 				"ancient": 0.3
+			}
+		},
+		{
+			"type": "zenith:attribute",
+			"gem_class": {
+				"key": "melee_weapon",
+				"types": [
+					"sword",
+					"heavy_weapon"
+				]
+			},
+			"attribute": "spell_power:arcane",
+			"operation": "ADDITION",
+			"values": {
+				"common": 0.25,
+				"uncommon": 0.5,
+				"rare": 0.75,
+				"epic": 1.0,
+				"mythic": 1.25,
+				"ancient": 1.5
 			}
 		},
 		{

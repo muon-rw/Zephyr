@@ -19,21 +19,18 @@ import java.util.stream.Stream;
 public abstract class LootRarityMixin {
     @Redirect(method = "execute", at = @At(value = "INVOKE", target = "Ljava/util/stream/Stream;filter(Ljava/util/function/Predicate;)Ljava/util/stream/Stream;", remap = false))
     private Stream<DynamicHolder<Affix>> filterAffixes(Stream<DynamicHolder<Affix>> stream, Predicate<DynamicHolder<Affix>> predicate, ItemStack stack, LootRarity rarity, Set<DynamicHolder<Affix>> currentAffixes) {
-        if (LootCategories.isStaff(stack) || LootCategories.isSpellWeapon(stack)) {
-            Set<SpellSchool> gearSpellSchools = AffixSchoolMapper.getSpellSchoolsFromGear(stack);
-            return stream.filter(a -> {
-                if (!predicate.test(a)) {
-                    return false;
-                }
-                Affix affix = a.get();
-                String affixId = affix.getId().toString();
-                if (AffixSchoolMapper.isElementalAffix(affixId)) {
-                    SpellSchool affixSpellSchool = AffixSchoolMapper.getSpellSchoolForAffix(affixId);
-                    return affixSpellSchool != null && gearSpellSchools.contains(affixSpellSchool);
-                }
-                return true;
-            });
-        }
-        return stream.filter(predicate);
+        Set<SpellSchool> gearSpellSchools = AffixSchoolMapper.getSpellSchoolsFromWeapon(stack);
+        return stream.filter(a -> {
+            if (!predicate.test(a)) {
+                return false;
+            }
+            Affix affix = a.get();
+            String affixId = affix.getId().toString();
+            if (AffixSchoolMapper.isElementalAffix(affixId)) {
+                SpellSchool affixSpellSchool = AffixSchoolMapper.getSpellSchoolForAffix(affixId);
+                return affixSpellSchool != null && gearSpellSchools.contains(affixSpellSchool);
+            }
+            return true;
+        });
     }
 }

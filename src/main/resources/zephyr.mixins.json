@@ -9,8 +9,7 @@
     "AffixRegistryMixin",
     "LootRarityMixin",
     "AttributesMixin",
-    "ALObjectsAttributesMixin",
-    "JewelryItemsMixin"
+    "ALObjectsAttributesMixin"
   ],
   "client": [
   ],

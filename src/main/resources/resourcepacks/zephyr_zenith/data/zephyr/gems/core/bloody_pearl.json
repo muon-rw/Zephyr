@@ -9,7 +9,9 @@
 				"key": "magic_weapons",
 				"types": [
 					"staff",
-					"spell_weapon"
+					"wand",
+					"sword",
+					"heavy_weapon"
 				]
 			},
 			"attribute": "spell_power:soul",
@@ -40,23 +42,6 @@
 				"epic": 0.06,
 				"mythic": 0.08,
 				"ancient": 0.10
-			}
-		},
-		{
-			"type": "zenith:enchantment",
-			"gem_class": {
-				"key": "melee_weapon",
-				"types": [
-					"sword",
-					"heavy_weapon"
-				]
-			},
-			"enchantment": "minecraft:fire_aspect",
-			"values": {
-				"rare": 1,
-				"epic": 1,
-				"mythic": 2,
-				"ancient": 3
 			}
 		}
 	]

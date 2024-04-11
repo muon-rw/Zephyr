@@ -9,7 +9,9 @@
 				"key": "magic_weapons",
 				"types": [
 					"staff",
-					"spell_weapon"
+					"wand",
+					"sword",
+					"heavy_weapon"
 				]
 			},
 			"attribute": "spell_power:healing",
@@ -40,25 +42,6 @@
 				"epic": 0.06,
 				"mythic": 0.08,
 				"ancient": 0.1
-			}
-		},
-		{
-			"type": "zenith:enchantment",
-			"gem_class": {
-				"key": "melee_weapon",
-				"types": [
-					"sword",
-					"trident",
-					"heavy_weapon"
-				]
-			},
-			"enchantment": "minecraft:smite",
-			"values": {
-				"uncommon": 1,
-				"rare": 1,
-				"epic": 2,
-				"mythic": 3,
-				"ancient": 4
 			}
 		},
 		{

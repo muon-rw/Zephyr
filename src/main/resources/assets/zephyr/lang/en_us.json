@@ -68,13 +68,13 @@
 
 	"text.zenith.category.staff": "Staff",
 	"text.zenith.category.staff.plural": "Staffs",
-    "text.zenith.category.spell_weapon": "Spell Weapon",
-	"text.zenith.category.spell_weapon.plural": "Spell Weapons",
+    "text.zenith.category.wand": "Wand",
+	"text.zenith.category.wand.plural": "Wands",
 
     "text.apotheosis.category.staff": "Staff",
 	"text.apotheosis.category.staff.plural": "Staffs",
-    "text.apotheosis.category.spell_weapon": "Spell Weapon",
-	"text.apotheosis.category.spell_weapon.plural": "Spell Weapons",
+    "text.apotheosis.category.wand": "Wand",
+	"text.apotheosis.category.wand.plural": "Wands",
 
     "item.zenith.gem.zephyr:core/celsius_tear": "Celsius' Tear",
     "item.zenith.gem.zephyr:core/dragonfire_spessartite": "Dragonfire Spessartite",

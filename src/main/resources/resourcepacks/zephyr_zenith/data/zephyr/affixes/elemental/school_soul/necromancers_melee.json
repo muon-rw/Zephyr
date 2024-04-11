@@ -53,6 +53,7 @@
 		}
 	},
 	"types": [
-		"spell_weapon"
+		"sword",
+		"heavy_weapon"
 	]
 }

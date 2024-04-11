@@ -37,7 +37,7 @@
 					"shovel",
 					"pickaxe",
 					"staff",
-					"spell_weapon"
+					"wand"
 				]
 			},
 			"attribute": "additionalentityattributes:player.dropped_experience",

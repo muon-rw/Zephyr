@@ -9,7 +9,7 @@
 				"key": "magic_weapons",
 				"types": [
 					"staff",
-					"spell_weapon"
+					"wand"
 				]
 			},
 			"attribute": "spell_power:frost",
@@ -21,6 +21,26 @@
 				"epic": 0.2,
 				"mythic": 0.25,
 				"ancient": 0.3
+			}
+		},
+		{
+			"type": "zenith:attribute",
+			"gem_class": {
+				"key": "melee_weapon",
+				"types": [
+					"sword",
+					"heavy_weapon"
+				]
+			},
+			"attribute": "spell_power:frost",
+			"operation": "ADDITION",
+			"values": {
+				"common": 0.25,
+				"uncommon": 0.5,
+				"rare": 0.75,
+				"epic": 1.0,
+				"mythic": 1.25,
+				"ancient": 1.5
 			}
 		},
 		{
@@ -55,25 +75,6 @@
 				"epic": 1,
 				"mythic": 2,
 				"ancient": 2
-			}
-		},
-		{
-			"type": "zenith:durability",
-			"gem_class": {
-				"key": "melee_weapon",
-				"types": [
-					"sword",
-					"heavy_weapon",
-					"trident"
-				]
-			},
-			"values": {
-				"common": 0.05,
-				"uncommon": 0.10,
-				"rare": 0.15,
-				"epic": 0.225,
-				"mythic": 0.30,
-				"ancient": 0.40
 			}
 		}
 	]

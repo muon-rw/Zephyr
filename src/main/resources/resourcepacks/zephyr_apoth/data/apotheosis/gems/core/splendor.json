@@ -37,7 +37,7 @@
 					"shovel",
 					"pickaxe",
 					"staff",
-					"spell_weapon"
+					"wand"
 				]
 			},
 			"attribute": "attributeslib:experience_gained",
