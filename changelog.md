@@ -1,3 +1,6 @@
+## 0.4.1:
+- Fixed mixin crash on Fabric
+
 ## 0.4.0:
 ### Major Refactor, existing datapacks will break 
 #### (Again, sorry! Last one for the foreseeable future.) 

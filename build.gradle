@@ -62,7 +62,7 @@ dependencies {
 	modImplementation "maven.modrinth:zenith:${project.zenith_version}"
 	modImplementation "maven.modrinth:fakerlib:${project.fakerlib_version}"
 	// RPG Series
-	modImplementation("maven.modrinth:projectile-damage-attribute:${project.projectile_damage}-fabric")
+	//deprecated     modImplementation("maven.modrinth:projectile-damage-attribute:${project.projectile_damage}-fabric")
 	modImplementation("maven.modrinth:ranged-weapon-api:${project.ranged_weapon_api}-fabric")
 	modImplementation("maven.modrinth:spell-power:${project.spell_power_version}-fabric")
 	modImplementation("maven.modrinth:spell-engine:${project.spell_engine_version}-fabric")
@@ -143,7 +143,7 @@ publishing {
 modrinth {
 	token = System.getenv("MODRINTH_TOKEN")
 	projectId = "zephyr-mod"
-	versionType = "release"
+	versionType = "alpha"
 	versionName = "Zephyr " + project.version
 	uploadFile = remapJar
 	gameVersions = ["1.20.1"]
@@ -161,7 +161,7 @@ task publishCurseForge(type: net.darkhax.curseforgegradle.TaskPublishCurseForge)
 	//debugMode = true
 	def mainFile = upload(924809, remapJar)
 	mainFile.changelog = "https://github.com/muon-rw/Zephyr/blob/master/changelog.md"
-	mainFile.releaseType = "release"
+	mainFile.releaseType = "alpha"
 	mainFile.addGameVersion("1.20.1")
 	mainFile.addModLoader("fabric")
 	mainFile.displayName = project.archives_base_name + "-" + project.version
