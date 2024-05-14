@@ -13,11 +13,12 @@ public class AffixSchoolMapper {
     /*
 
     Valid elemental affixes still need to be assigned the standard way for each desired loot category.
-     They are then filtered to only apply to the appropriate matching gear sets based on the presence of attributes
+     They are then filtered to only apply to the appropriate matching gear sets based on the presence of elemental attributes
 
      If you want to use this behavior, place your elemental affix in an /affixes/elemental/school_schoolname/ directory
      "schoolname" should match the entry name for a SpellSchool.
      ex.: /data/zephyr/affixes/elemental/school_fire/attribute.json matches SpellSchools.FIRE
+     ex.: /data/yourmod/affixes/elemental/school_blood/attribute.json matches SpellSchools.BLOOD
 
      Currently, this sorting behavior only applies to weapons, primarily for balance.
 
