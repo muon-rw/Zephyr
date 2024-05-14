@@ -18,7 +18,7 @@ public class AffixSchoolMapper {
      If you want to use this behavior, place your elemental affix in an /affixes/elemental/school_schoolname/ directory
      "schoolname" should match the entry name for a SpellSchool.
      ex.: /data/zephyr/affixes/elemental/school_fire/attribute.json matches SpellSchools.FIRE
-     ex.: /data/yourmod/affixes/elemental/school_blood/attribute.json matches SpellSchools.BLOOD
+     ex.: /data/yourmod/affixes/elemental/school_blood/anyname.json matches SpellSchools.BLOOD
 
      Currently, this sorting behavior only applies to weapons, primarily for balance.
 
