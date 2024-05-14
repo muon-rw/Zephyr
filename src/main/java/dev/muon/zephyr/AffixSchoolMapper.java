@@ -19,8 +19,7 @@ public class AffixSchoolMapper {
      "schoolname" should match the entry name for a SpellSchool.
      ex.: /data/zephyr/affixes/elemental/school_fire/attribute.json matches SpellSchools.FIRE
 
-     Currently, this sorting behavior only applies to weapons, due to how attribute modifiers are detected
-     More sortable exclusion rules can be added easily, feel free to submit an issue for it.
+     Currently, this sorting behavior only applies to weapons, primarily for balance.
 
     */
     public static Set<SpellSchool> getSpellSchoolsFromGear(ItemStack stack, EquipmentSlot slot) {
