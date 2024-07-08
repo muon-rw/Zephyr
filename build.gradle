@@ -61,23 +61,29 @@ dependencies {
 	modImplementation "maven.modrinth:zenith-attributes:${project.zenith_attributes_version}"
 	modImplementation "maven.modrinth:zenith:${project.zenith_version}"
 	modImplementation "maven.modrinth:fakerlib:${project.fakerlib_version}"
-	// RPG Series
+
+	// RPG Series - Libraries
 	modImplementation("maven.modrinth:projectile-damage-attribute:${project.projectile_damage}-fabric")
 	modImplementation("maven.modrinth:ranged-weapon-api:${project.ranged_weapon_api}-fabric")
 	modImplementation("maven.modrinth:spell-power:${project.spell_power_version}-fabric")
 	modImplementation("maven.modrinth:spell-engine:${project.spell_engine_version}-fabric")
-	modImplementation("maven.modrinth:wizards:${project.wizards_version}-fabric")
-	modImplementation("maven.modrinth:paladins-and-priests:${project.paladins_version}-fabric")
-	modImplementation("maven.modrinth:archers:${project.archers_version}-fabric")
 	modImplementation("maven.modrinth:runes:${project.runes_version}-fabric")
 	modImplementation("maven.modrinth:better-combat:${project.bettercombat_version}-fabric")
-	modImplementation("maven.modrinth:jewelry:${project.jewelry_version}-fabric")
 	modImplementation("maven.modrinth:structure-pool-api:${project.structure_pool_api_version}-fabric")
 
+	// RPG Series - Content
+	modImplementation("maven.modrinth:archers:${project.archers_version}-fabric")
+	modImplementation("maven.modrinth:wizards:${project.wizards_version}-fabric")
+	modImplementation("maven.modrinth:jewelry:${project.jewelry_version}-fabric")
+	modImplementation("maven.modrinth:paladins-and-priests:${project.paladins_version}-fabric")
+	modImplementation("maven.modrinth:rogues-and-warriors:${project.rogues_version}-fabric")
+
+	// RPG Series - External libs
 	modImplementation("dev.kosmx.player-anim:player-animation-lib-fabric:${project.player_anim_version}")
 	modImplementation("me.shedaniel.cloth:cloth-config-fabric:${project.cloth_config_version}")
 	modImplementation("dev.emi:trinkets:${project.trinkets_version}")
 
+	// Other stuff
 	implementation(annotationProcessor("com.github.bawnorton.mixinsquared:mixinsquared-fabric:${project.mixin_squared_version}"))
 	implementation(annotationProcessor("io.github.llamalad7:mixinextras-fabric:${project.mixin_extras_version}"))
 
