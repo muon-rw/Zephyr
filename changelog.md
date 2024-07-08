@@ -1,3 +1,6 @@
+## 0.4.2:
+- Updated to support Zenith 1.2.1
+
 ## 0.4.1:
 - Fixed mixin crash on Fabric
 
