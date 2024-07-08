@@ -153,16 +153,16 @@ publishing {
 modrinth {
 	token = System.getenv("MODRINTH_TOKEN")
 	projectId = "zephyr-mod"
-	versionType = "alpha"
+	versionType = "release"
 	versionName = "Zephyr " + project.version
 	uploadFile = remapJar
 	gameVersions = ["1.20.1"]
 	loaders = ["fabric"]
-	changelog = "[Changelog](https://github.com/muon-rw/Zephyr/blob/master/changelog.md)"
+	changelog = new File("$project.rootDir/changelog.md").getText('UTF-8')
 	//debugMode = true
 	dependencies {
 		required.project("zenith")
-		required.project("spell-power")
+		required.project("spell-engine")
 	}
 }
 
@@ -170,13 +170,14 @@ task publishCurseForge(type: net.darkhax.curseforgegradle.TaskPublishCurseForge)
 	apiToken = System.getenv("CF_TOKEN")
 	//debugMode = true
 	def mainFile = upload(924809, remapJar)
-	mainFile.changelog = "https://github.com/muon-rw/Zephyr/blob/master/changelog.md"
-	mainFile.releaseType = "alpha"
+	mainFile.changelog = new File("$project.rootDir/changelog.md").getText('UTF-8')
+	mainFile.changelogType = "markdown"
+	mainFile.releaseType = "release"
 	mainFile.addGameVersion("1.20.1")
 	mainFile.addModLoader("fabric")
 	mainFile.displayName = project.archives_base_name + "-" + project.version
 	mainFile.addRequirement("zenith")
-	mainFile.addRequirement("spell-power")
+	mainFile.addRequirement("spell-engine")
 	mainFile.addOptional("better-combat-by-daedelus")
 	mainFile.addOptional("paladins-and-priests")
 	mainFile.addOptional("wizards")
