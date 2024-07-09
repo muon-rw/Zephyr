@@ -11,16 +11,17 @@ import org.spongepowered.asm.mixin.injection.Redirect;
 
 import java.util.function.Predicate;
 
-@Mixin(value = LootCategory.class, remap = false)
+@Mixin(value = LootCategory.class)
 public class LootCategoryMixin {
 
     /**
      * Redirecting Heavy Weapon Registration instead of modifying return values
      * Reasons:
-     * ShieldBreakerTest is not performant
-     * Presents mod compatibility issues (currently a stack overflow with ExtraRPGAttributes)
-     * Separating solely by 1h vs. 2h is more intuitive.
-     * When Apotheosis drops the Heavy Weapon category, this is how we'll differentiate anyway.
+     * 1. ShieldBreakerTest is not performant
+     * 2. Presents mod compatibility issues (currently a stack overflow with ExtraRPGAttributes)
+     * 3. Separating solely by 1h vs. 2h is more intuitive.
+     * 4. Allows us to simplify the logic for differentiating Wands vs. Staffs
+     * 5. When Apotheosis drops the Heavy Weapon category, this is how we'll differentiate anyway.
      */
     @Redirect(
             method = "<clinit>",
