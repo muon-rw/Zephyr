@@ -7,7 +7,7 @@
   "mixins": [
     "LootCategoryMixin",
     "AffixRegistryMixin",
-    "LootRarityMixin",
+    "LootControllerMixin",
     "AttributesMixin",
     "ALObjectsAttributesMixin"
   ],
