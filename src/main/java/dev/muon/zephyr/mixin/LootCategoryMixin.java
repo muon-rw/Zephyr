@@ -11,7 +11,7 @@ import org.spongepowered.asm.mixin.injection.Redirect;
 
 import java.util.function.Predicate;
 
-@Mixin(LootCategory.class)
+@Mixin(value = LootCategory.class, remap = false)
 public class LootCategoryMixin {
 
     /**
