@@ -1,3 +1,9 @@
+## 0.4.3:
+- Effectively disabled the Shield Breaker test for Heavy Weapons if Better Combat is loaded (only determined by 1h vs. 2h)
+- Remove unnecessary Porting Lib jar-in-jars 
+- Added optional RPGMana Affixes and gems
+- Added optional More RPG Classes Affixes and gems0.4.3
+
 ## 0.4.2:
 - Updated to support Zenith 1.2.1
 
