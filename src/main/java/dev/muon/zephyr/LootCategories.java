@@ -12,7 +12,7 @@ import net.spell_engine.api.item.weapon.StaffItem;
 public class LootCategories {
     // Elemental Affixes are sorted automatically for any valid weapon
     // See AffixSchoolMapper
-    public static final LootCategory STAFF = LootCategory.register(LootCategory.SWORD, "staff",
+    public static final LootCategory STAFF = LootCategory.register(LootCategory.HEAVY_WEAPON, "staff",
             s -> s.getItem() instanceof StaffItem && !isOneHanded(s),
             arr(EquipmentSlot.MAINHAND));
     public static final LootCategory WAND = LootCategory.register(LootCategory.SWORD, "wand",
