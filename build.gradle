@@ -12,6 +12,10 @@ base {
 	archivesName = project.archives_base_name
 }
 
+loom {
+	accessWidenerPath = file("src/main/resources/zephyr.accesswidener")
+}
+
 repositories {
 	maven {
 		name = "Parchment"
@@ -50,7 +54,7 @@ dependencies {
 	mappings loom.layered() {
 		officialMojangMappings()
 		// Use parchment mappings. NOTE: Parchment maven must be manually added. (https://maven.parchmentmc.org)
-		parchment("org.parchmentmc.data:parchment-1.20.1:2023.06.26@zip")
+		parchment("org.parchmentmc.data:parchment-1.20.1:2023.09.03@zip")
 	}
 
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
@@ -90,7 +94,6 @@ dependencies {
 	// Forg
 	modImplementation("maven.modrinth:spellblades-and-such:${project.spellblades_version}")
 	modImplementation("maven.modrinth:extra-rpg-attributes:${project.extra_rpg_attr_version}")
-	modImplementation fileTree(dir: '/libs/', include: '*.jar')
 	modImplementation("maven.modrinth:druids-of-storm-and-spirit:${project.druids_version}")
 
 	// Other stuff
