@@ -1,0 +1,92 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "more_rpg_classes"
+      ]
+    }
+  ],
+  "weight": 5,
+  "quality": 2,
+  "dimensions": [
+  ],
+  "bonuses": [
+    {
+      "type": "zenith:attribute",
+      "gem_class": {
+        "key": "magic_weapons",
+        "types": [
+          "staff",
+          "wand"
+        ]
+      },
+      "attribute": "spell_power:earth",
+      "operation": "MULTIPLY_BASE",
+      "values": {
+        "common": 0.05,
+        "uncommon": 0.1,
+        "rare": 0.15,
+        "epic": 0.2,
+        "mythic": 0.25,
+        "ancient": 0.3
+      }
+    },
+    {
+      "type": "zenith:attribute",
+      "gem_class": {
+        "key": "melee_weapon",
+        "types": [
+          "sword",
+          "heavy_weapon"
+        ]
+      },
+      "attribute": "spell_power:earth",
+      "operation": "ADDITION",
+      "values": {
+        "common": 0.25,
+        "uncommon": 0.5,
+        "rare": 0.75,
+        "epic": 1.0,
+        "mythic": 1.25,
+        "ancient": 1.5
+      }
+    },
+    {
+      "type": "zenith:enchantment",
+      "gem_class": {
+        "key": "breaker",
+        "types": [
+          "shovel",
+          "pickaxe"
+        ]
+      },
+      "enchantment": "unbreaking",
+      "values": {
+        "rare": 1,
+        "epic": 2,
+        "mythic": 3,
+        "ancient": 4
+      }
+    },
+    {
+      "type": "zenith:attribute",
+      "gem_class": {
+        "key": "core_armor",
+        "types": [
+          "chestplate", "leggings"
+        ]
+      },
+      "attribute": "minecraft:generic.knockback_resistance",
+      "operation": "ADDITION",
+      "values": {
+        "common": 0.1,
+        "uncommon": 0.2,
+        "rare": 0.3,
+        "epic": 0.4,
+        "mythic": 0.5,
+        "ancient": 0.7
+      }
+    }
+  ]
+}

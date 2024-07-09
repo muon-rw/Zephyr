@@ -1,0 +1,93 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "more_rpg_classes"
+      ]
+    }
+  ],
+  "weight": 5,
+  "quality": 2,
+  "dimensions": [
+  ],
+  "bonuses": [
+    {
+      "type": "zenith:attribute",
+      "gem_class": {
+        "key": "magic_weapons",
+        "types": [
+          "staff",
+          "wand"
+        ]
+      },
+      "attribute": "spell_power:water",
+      "operation": "MULTIPLY_BASE",
+      "values": {
+        "common": 0.05,
+        "uncommon": 0.1,
+        "rare": 0.15,
+        "epic": 0.2,
+        "mythic": 0.25,
+        "ancient": 0.3
+      }
+    },
+    {
+      "type": "zenith:attribute",
+      "gem_class": {
+        "key": "melee_weapon",
+        "types": [
+          "sword",
+          "heavy_weapon"
+        ]
+      },
+      "attribute": "spell_power:water",
+      "operation": "ADDITION",
+      "values": {
+        "common": 0.25,
+        "uncommon": 0.5,
+        "rare": 0.75,
+        "epic": 1.0,
+        "mythic": 1.25,
+        "ancient": 1.5
+      }
+    },
+    {
+      "type": "zenith:attribute",
+      "gem_class": {
+        "key": "boots",
+        "types": [
+          "boots"
+        ]
+      },
+      "attribute": "porting_lib:swim_speed",
+      "operation": "MULTIPLY_BASE",
+      "values": {
+        "common": 0.10,
+        "uncommon": 0.20,
+        "rare": 0.30,
+        "epic": 0.45,
+        "mythic": 0.60,
+        "ancient": 0.80
+      }
+    },
+    {
+      "type": "zenith:attribute",
+      "gem_class": {
+        "key": "chestplate",
+        "types": [
+          "chestplate"
+        ]
+      },
+      "attribute": "zenith_attributes:healing_received",
+      "operation": "ADDITION",
+      "values": {
+        "uncommon": 0.15,
+        "rare": 0.20,
+        "epic": 0.30,
+        "mythic": 0.40,
+        "ancient": 0.50
+      }
+    }
+  ]
+}

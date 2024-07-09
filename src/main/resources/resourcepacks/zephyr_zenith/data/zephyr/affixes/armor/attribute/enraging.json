@@ -1,0 +1,38 @@
+{
+	"fabric:load_conditions": [
+	  {
+		"condition": "fabric:all_mods_loaded",
+		"values": [
+		  "more_rpg_classes"
+		]
+	  }
+	],
+	"type": "zenith:attribute",
+	"attribute": "more_rpg_classes:rage_modifier",
+	"operation": "MULTIPLY_BASE",
+	"values": {
+		"rare": {
+			"min": 0.1,
+			"steps": 2,
+			"step": 0.005
+		},
+		"epic": {
+			"min": 0.2,
+			"steps": 2,
+			"step": 0.005
+		},
+		"mythic": {
+			"min": 0.3,
+			"steps": 3,
+			"step": 0.005
+		},
+		"ancient": {
+			"min": 0.45,
+			"steps": 5,
+			"step": 0.005
+		}
+	},
+	"types": [
+		"helmet", "chestplate", "leggings", "boots"
+	]
+}

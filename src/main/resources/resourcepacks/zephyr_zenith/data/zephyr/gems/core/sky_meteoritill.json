@@ -1,0 +1,94 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "more_rpg_classes"
+      ]
+    }
+  ],
+  "weight": 5,
+  "quality": 2,
+  "dimensions": [
+  ],
+  "bonuses": [
+    {
+      "type": "zenith:attribute",
+      "gem_class": {
+        "key": "magic_weapons",
+        "types": [
+          "staff",
+          "wand"
+        ]
+      },
+      "attribute": "spell_power:air",
+      "operation": "MULTIPLY_BASE",
+      "values": {
+        "common": 0.05,
+        "uncommon": 0.1,
+        "rare": 0.15,
+        "epic": 0.2,
+        "mythic": 0.25,
+        "ancient": 0.3
+      }
+    },
+    {
+      "type": "zenith:attribute",
+      "gem_class": {
+        "key": "melee_weapon",
+        "types": [
+          "sword",
+          "heavy_weapon"
+        ]
+      },
+      "attribute": "spell_power:air",
+      "operation": "ADDITION",
+      "values": {
+        "common": 0.25,
+        "uncommon": 0.5,
+        "rare": 0.75,
+        "epic": 1.0,
+        "mythic": 1.25,
+        "ancient": 1.5
+      }
+    },
+    {
+      "type": "zenith:attribute",
+      "gem_class": {
+        "key": "boots",
+        "types": [
+          "boots"
+        ]
+      },
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "MULTIPLY_TOTAL",
+      "values": {
+        "common": 0.10,
+        "uncommon": 0.25,
+        "rare": 0.35,
+        "epic": 0.45,
+        "mythic": 0.55,
+        "ancient": 0.70
+      }
+    },
+    {
+      "type": "zenith:attribute",
+      "gem_class": {
+        "key": "chestplate",
+        "types": [
+          "chestplate"
+        ]
+      },
+      "attribute": "zenith_attributes:dodge_chance",
+      "operation": "ADDITION",
+      "values": {
+        "common": 0.025,
+        "uncommon": 0.05,
+        "rare": 0.075,
+        "epic": 0.10,
+        "mythic": 0.125,
+        "ancient": 0.15
+      }
+    }
+  ]
+}

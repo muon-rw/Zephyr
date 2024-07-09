@@ -83,7 +83,6 @@
     "item.zenith.gem.zephyr:core/bloody_pearl": "Bloody Pearl",
     "item.zenith.gem.zephyr:core/effervescent_brimstone": "Effervescent Brimstone",
 
-
     "item.apotheosis.gem.zephyr:core/celsius_tear": "Celsius' Tear",
     "item.apotheosis.gem.zephyr:core/dragonfire_spessartite": "Dragonfire Spessartite",
     "item.apotheosis.gem.zephyr:core/luminous_opal": "Luminous Opal",
@@ -91,9 +90,39 @@
     "item.apotheosis.gem.zephyr:core/bloody_pearl": "Bloody Pearl",
     "item.apotheosis.gem.zephyr:core/effervescent_brimstone": "Effervescent Brimstone",
 
-
     "gem_class.magic_weapons": "Magic Weapons",
 
     "affix.zenith.target.spell_cast_self": "On spell cast, gain %s",
-    "affix.zenith.target.spell_cast_target": "On spell cast, inflict %s"
+    "affix.zenith.target.spell_cast_target": "On spell cast, inflict %s",
+
+
+
+    "affix.zephyr:elemental/school_air/attribute": "Breezy",
+    "affix.zephyr:elemental/school_air/attribute.suffix": "of the Hurricane",
+    "affix.zephyr:elemental/school_air/storm_wizard": "Stormrazor's",
+    "affix.zephyr:elemental/school_air/storm_wizard.suffix": "of Fierce Winds",
+    "affix.zephyr:elemental/school_air/storm_wizard_melee": "Stormrazor's",
+    "affix.zephyr:elemental/school_air/storm_wizard_melee.suffix": "of Fierce Winds",
+
+    "affix.zephyr:elemental/school_earth/attribute": "Crushing",
+    "affix.zephyr:elemental/school_earth/attribute.suffix": "of the Continents",
+    "affix.zephyr:elemental/school_earth/terraformer": "Terraformer's",
+    "affix.zephyr:elemental/school_earth/terraformer.suffix": "of High Mountains",
+    "affix.zephyr:elemental/school_earth/terraformer_melee": "Terraformer's",
+    "affix.zephyr:elemental/school_earth/terraformer_melee.suffix": "of High Mountains",
+
+    "affix.zephyr:elemental/school_water/attribute": "Divider's",
+    "affix.zephyr:elemental/school_water/attribute.suffix": "of the Seas",
+    "affix.zephyr:elemental/school_water/hydromancer": "Hydromancer's",
+    "affix.zephyr:elemental/school_water/hydromancer.suffix": "of Abyssal Depths",
+    "affix.zephyr:elemental/school_water/hydromancer_melee": "Hydromancer's",
+    "affix.zephyr:elemental/school_water/hydromancer_melee.suffix": "of Abyssal Depths",
+
+    "item.zenith.gem.zephyr:core/golems_onyx": "Golem Onyx",
+    "item.zenith.gem.zephyr:core/sirens_aquamarine": "Siren's Aquamarine",
+    "item.zenith.gem.zephyr:core/sky_meteoritill": "Sky Meteoritill",
+
+    "affix.zephyr:armor/attribute/enraging": "Enraging",
+    "affix.zephyr:armor/attribute/enraging.suffix": "of the Berserker"
+
 }
